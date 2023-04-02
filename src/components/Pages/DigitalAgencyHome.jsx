@@ -51,29 +51,29 @@ export default function DigitalAgencyHome() {
   ];
   const serviceData1 = [
     {
-      title: 'UI/UX Design',
+      title: 'Logo Tasarımı',
       href: '/service/service-details',
     },
     {
-      title: 'Marketing',
+      title: 'GIF Tasarımı',
       href: '/service/service-details',
     },
     {
-      title: 'Branding',
+      title: 'Kurumsal Kimlik',
       href: '/service/service-details',
     },
   ];
   const serviceData2 = [
     {
-      title: 'SEO',
+      title: 'Yayıncı Paketleri',
       href: '/service/service-details',
     },
     {
-      title: 'App design',
+      title: 'Intro/Outro',
       href: '/service/service-details',
     },
     {
-      title: 'React Developer',
+      title: 'Konu Tasarımı',
       href: '/service/service-details',
     },
   ];
