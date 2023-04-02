@@ -31,7 +31,7 @@ function App() {
             path="photography-agency"
             element={<PhotographyAgencyHome />}
           />
-          <Route path="digital-agency" element={<DigitalAgencyHome />} />
+          <Route path="anasayfa" element={<DigitalAgencyHome />} />
           <Route path="marketing-agency" element={<MarketingAgencyHome />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="service" element={<ServicesPage />} />
