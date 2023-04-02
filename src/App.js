@@ -8,9 +8,7 @@ import Home from './components/Pages/Home';
 import PortfolioDetailsPage from './components/Pages/PortfolioDetailsPage';
 import ServiceDetailsPage from './components/Pages/ServiceDetailsPage';
 import ServicesPage from './components/Pages/ServicesPage';
-import TeamPage from './components/Pages/TeamPage';
 import PortfolioPage from './components/Pages/PortfolioPage';
-import TeamDetails from './components/Pages/TeamDetails';
 import PhotographyAgencyHome from './components/Pages/PhotographyAgencyHome';
 import CreativePortfolioHome from './components/Pages/CreativePortfolioHome';
 import DigitalAgencyHome from './components/Pages/DigitalAgencyHome';
@@ -47,8 +45,6 @@ function App() {
           <Route path="blog" element={<BlogPage />} />
           <Route path="blog/:blogDetailsId" element={<BlogDetailsPage />} />
           <Route path="contact" element={<ContactPage />} />
-          <Route path="team" element={<TeamPage />} />
-          <Route path="team/:teamDetails" element={<TeamDetails />} />
           <Route
             path="/case-study/:caseStudyDetailsId"
             element={<CaseStudyDetailsPage />}
