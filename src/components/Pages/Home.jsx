@@ -21,12 +21,12 @@ export default function Home() {
   // Hero Social Links
   const heroSocialLinks = [
     {
-      name: 'Behance',
-      links: '/',
+      name: 'fa-discord Discord',
+      links: 'https://discord.gg/7Q7EbNKHha',
     },
     {
-      name: 'Twitter',
-      links: '/',
+      name: 'Behance',
+      links: 'https://behance.net/alphagrafik ',
     },
   ];
 
