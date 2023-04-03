@@ -53,7 +53,7 @@ function App() {
             path="/case-study/:caseStudyDetailsId"
             element={<CaseStudyDetailsPage />}
           />
-          <Route path="faq" element={<FaqPage />} />
+          <Route path="sss" element={<FaqPage />} />
         </Route>
         <Route
           path="/"
