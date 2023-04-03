@@ -220,14 +220,6 @@ export default function Header({ variant }) {
                               to="/team/team-details"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Team Details
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/case-study/case-study-details"
-                              onClick={() => setMobileToggle(false)}
-                            >
                               Case Study Details
                             </Link>
                           </li>
