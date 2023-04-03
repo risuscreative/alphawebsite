@@ -21,7 +21,7 @@ export default function Home() {
   // Hero Social Links
   const heroSocialLinks = [
     {
-      name: 'fa-discord Discord',
+      name: 'Discord',
       links: 'https://discord.gg/7Q7EbNKHha',
     },
     {
@@ -33,11 +33,11 @@ export default function Home() {
   // FunFact Data
   const funfaceData = [
     {
-      title: 'Global Happy Clients',
-      factNumber: '40K',
+      title: 'Mutlu Müşteri',
+      factNumber: '140',
     },
     {
-      title: 'Project Completed',
+      title: 'Toplam Referans',
       factNumber: '50K',
     },
     {
@@ -58,12 +58,12 @@ export default function Home() {
     <>
       {/* Start Hero Section */}
       <Hero
-        title="Creativity In <br/>Our Blood Line"
-        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
-        btnText="Get a Quote"
+        title="Profesyonel Dizayn <br/>Kaliteli Yaşam"
+        subtitle="2021'den beri gelişen tecrübemizle sizlere grafik tasarım hizmeti sağlamaktayız"
+        btnText="Sipariş Oluştur"
         btnLink="/contact"
         scrollDownId="#service"
-        socialLinksHeading="Follow Us"
+        socialLinksHeading="Takip Et"
         heroSocialLinks={heroSocialLinks}
         bgImageUrl="/images/hero_bg.jpeg"
       />
