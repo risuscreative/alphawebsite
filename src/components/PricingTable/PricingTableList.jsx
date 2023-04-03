@@ -18,7 +18,7 @@ export default function PricingTableList() {
             <PricingTable 
               title='Standard'
               price='29'
-              currency='$'
+              currency='₺'
               timeline='monthly'
               features={['Static responsive website', 'Video marketing', 'Keywords research', 'Facebook campaign', 'eCommerce solution', 'Google adword']}
               btnText='Purchase Now'
