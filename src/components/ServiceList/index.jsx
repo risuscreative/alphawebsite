@@ -13,16 +13,16 @@ export default function ServiceList() {
       href: '/service/service-details',
     },
     {
-      title: 'UI/UX Design',
+      title: 'Logo Tasarımı',
       subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
+        'Platformunuzu Alpha ile resmedin.',
       imgUrl: '/images/service_8.jpeg',
       href: '/service/service-details',
     },
     {
-      title: 'Branding',
+      title: 'GIF Tasarımı',
       subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
+        'Platformunuzu Alpha ile hareketlendirin.',
       imgUrl: '/images/service_9.jpeg',
       href: '/service/service-details',
     },
