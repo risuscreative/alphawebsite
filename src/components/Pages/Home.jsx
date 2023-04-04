@@ -87,9 +87,9 @@ export default function Home() {
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title="Services we can help you with"
-                subtitle="What Can We Do"
-                btnText="See All Services"
+                title="Sizlere Verdiğimiz Hizmetler"
+                subtitle="Hizmetler"
+                btnText="Bütün Hizmetleri Görüntüle"
                 btnLink="/service"
               />
               <Spacing lg="90" md="45" />
@@ -156,22 +156,6 @@ export default function Home() {
         </Div>
         <PortfolioSlider />
       </Div>
-      {/* End Portfolio Section */}
-
-      {/* Start Video Block Section */}
-      <Spacing lg="130" md="70" />
-      <Div className="container">
-        <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-          Our agile process is ability to adapt and respond to change. Agile
-          organizations view change as an opportunity, not a threat.
-        </h2>
-        <Spacing lg="70" md="70" />
-        <VideoModal
-          videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-          bgUrl="/images/video_bg.jpeg"
-        />
-      </Div>
-      {/* End Video Block Section */}
 
       {/* Start Testimonial Section */}
       <TestimonialSlider />
