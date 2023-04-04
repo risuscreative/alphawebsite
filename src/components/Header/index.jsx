@@ -44,7 +44,7 @@ export default function Header({ variant }) {
                   >
                     <li className="menu-item-has-children">
                       <NavLink to="/" onClick={() => setMobileToggle(false)}>
-                        <i class="fa-regular fa-house"></i> Home
+                        Home
                       </NavLink>
                       <DropDown>
                         <ul>
