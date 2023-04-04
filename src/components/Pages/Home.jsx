@@ -34,19 +34,19 @@ export default function Home() {
   const funfaceData = [
     {
       title: 'Mutlu Müşteri',
-      factNumber: '140',
+      factNumber: '160',
+    },
+    {
+      title: 'Tekrar Tercih Edenler',
+      factNumber: '70',
+    },
+    {
+      title: 'Yeni Katılanlar',
+      factNumber: '60',
     },
     {
       title: 'Toplam Referans',
-      factNumber: '50K',
-    },
-    {
-      title: 'Team Members',
-      factNumber: '245',
-    },
-    {
-      title: 'Digital products',
-      factNumber: '550',
+      factNumber: '180',
     },
   ];
 
@@ -73,8 +73,8 @@ export default function Home() {
       <div className="container">
         <FunFact
           variant="cs-type1"
-          title="Our fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          title="Sayılarla Biz"
+          subtitle="Alpha Graphic Art olarak her geçen gün memnun müşterilerimiz ve profesyonel işlerimiz sayesinde sayılarımızı artırıyoruz."
           data={funfaceData}
         />
       </div>
@@ -99,7 +99,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                 <Div className="col-lg-3 col-sm-6">
                   <Card
-                    title="UI/UX design"
+                    title="Logo Tasarımı"
                     link="/service/service-details"
                     src="/images/service_1.jpeg"
                     alt="Service"
@@ -109,7 +109,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                 <Div className="col-lg-3 col-sm-6">
                   <Card
-                    title="React.js Development"
+                    title="GIF Tasarımı"
                     link="/service/service-details"
                     src="/images/service_2.jpeg"
                     alt="Service"
@@ -118,7 +118,7 @@ export default function Home() {
                 </Div>
                 <Div className="col-lg-3 col-sm-6">
                   <Card
-                    title="Digital Marketing"
+                    title="Konu Tasarımı"
                     link="/service/service-details"
                     src="/images/service_3.jpeg"
                     alt="Service"
@@ -128,7 +128,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                 <Div className="col-lg-3 col-sm-6">
                   <Card
-                    title="Technology"
+                    title="Yayıncı Paketleri"
                     link="/service/service-details"
                     src="/images/service_4.jpeg"
                     alt="Service"
@@ -148,8 +148,8 @@ export default function Home() {
       <Div>
         <Div className="container">
           <SectionHeading
-            title="Portfolio to explore"
-            subtitle="Latest Projects"
+            title="Tasarımlara Göz At"
+            subtitle="Son Çalışmalar"
             variant="cs-style1 text-center"
           />
           <Spacing lg="90" md="45" />
@@ -157,30 +157,6 @@ export default function Home() {
         <PortfolioSlider />
       </Div>
       {/* End Portfolio Section */}
-
-      {/* Start Awards Section */}
-      <Spacing lg="150" md="80" />
-      <Div className="cs-shape_wrap_2">
-        <Div className="cs-shape_2">
-          <Div />
-        </Div>
-        <Div className="container">
-          <Div className="row">
-            <Div className="col-xl-4">
-              <SectionHeading
-                title="We get multiple awards"
-                subtitle="Our Awards"
-                variant="cs-style1"
-              />
-              <Spacing lg="90" md="45" />
-            </Div>
-            <Div className="col-xl-7 offset-xl-1">
-              <TimelineSlider />
-            </Div>
-          </Div>
-        </Div>
-      </Div>
-      {/* End Awards Section */}
 
       {/* Start Video Block Section */}
       <Spacing lg="130" md="70" />
@@ -210,9 +186,9 @@ export default function Home() {
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title="Explore recent publication"
-                subtitle="Our Blog"
-                btnText="View More Blog"
+                title="Paylaşımları Keşfet"
+                subtitle="Blog"
+                btnText="Daha Fazla Görüntüle"
                 btnLink="/blog"
               />
               <Spacing lg="90" md="45" />
@@ -229,7 +205,7 @@ export default function Home() {
 
       {/* Start MovingText Section */}
       <Spacing lg="125" md="70" />
-      <MovingText text="Our reputed world wide partners" />
+      <MovingText text="Desteklediğimiz sponsorlar" />
       <Spacing lg="105" md="70" />
       {/* End MovingText Section */}
 
@@ -243,8 +219,8 @@ export default function Home() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
-          btnText="Apply For Meeting"
+          title="Projeniz <br />için <i>fiyat teklifi</i> alın"
+          btnText="Fiyat Teklifi Al"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"
         />
