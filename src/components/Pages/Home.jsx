@@ -101,7 +101,7 @@ export default function Home() {
                   <Card
                     title="Logo Tasarımı"
                     link="/service/service-details"
-                    src="/images/service_1.jpeg"
+                    src="/images/logo.jpg"
                     alt="Service"
                   />
                   <Spacing lg="0" md="30" />
