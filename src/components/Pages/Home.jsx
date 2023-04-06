@@ -120,7 +120,7 @@ export default function Home() {
                   <Card
                     title="Konu Tasarımı"
                     link="/service/service-details"
-                    src="/images/service_3.jpg"
+                    src="/images/konu.png"
                     alt="Service"
                   />
                   <Spacing lg="0" md="30" />
