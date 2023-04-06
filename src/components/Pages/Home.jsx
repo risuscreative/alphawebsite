@@ -130,7 +130,7 @@ export default function Home() {
                   <Card
                     title="Yayıncı Paketleri"
                     link="/service/service-details"
-                    src="/images/service_4.jpeg"
+                    src="/images/live.png"
                     alt="Service"
                   />
                   <Spacing lg="0" md="30" />
