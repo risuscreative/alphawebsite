@@ -49,7 +49,7 @@ export default function Header({ variant }) {
                       <DropDown>
                         <ul>
                           <li>
-                            <Link to="/" onClick={() => setMobileToggle(false)}>
+                           >
                         About
                       </NavLink>
                     </li>
