@@ -45,12 +45,6 @@ export default function Header({ variant }) {
                     <li className="menu-item-has-children">
                       <NavLink to="/" onClick={() => setMobileToggle(false)}>
                         Ana Sayfa
-                      </NavLink>
-                    </li>
-                    <li className="menu-item-has-children">
-                      <NavLink
-                        to="#"
-                        onClick={() => setMobileToggle(false)}
                       >
                         About
                       </NavLink>
