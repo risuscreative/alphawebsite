@@ -111,7 +111,7 @@ export default function Home() {
                   <Card
                     title="GIF Tasarımı"
                     link="/service/service-details"
-                    src="/images/service_2.jpeg"
+                    src="/images/gif.png"
                     alt="Service"
                   />
                   <Spacing lg="0" md="30" />
