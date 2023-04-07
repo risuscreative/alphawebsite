@@ -50,7 +50,7 @@ export default function Header({ variant }) {
                     <li className="menu-item-has-children">
                       <NavLink
                         to="service"
-                        on
+                        onClick={() => setMobileToggle(false)}
                       >
                         About
                       </NavLink>
