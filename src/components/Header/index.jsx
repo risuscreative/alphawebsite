@@ -121,53 +121,34 @@ export default function Header({ variant }) {
                             <Link
                               to="blog"
                               onClick={() => setMobileToggle(false)}
-                            >
-                              Blog
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="blog/blog-details"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Blog Details
-                            </Link>
-                          </li>
-                        </ul>
-                      </DropDown>
-                    </li>
-                    <li className="menu-item-has-children">
-                     </li>
-                    <li className="menu-item-has-children">
-                      <NavLink to="blog" onClick={() => setMobileToggle(false)}>
-                        Blog
+                     <li className="menu-item-has-children">
+                      <NavLink
+                        to="portfolio"
+                        onClick={() => setMobileToggle(false)}
+                      >
+                        Portfolio
                       </NavLink>
                       <DropDown>
                         <ul>
                           <li>
                             <Link
-                              to="blog"
+                              to="portfolio"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Blog
+                              Portfolio
                             </Link>
                           </li>
                           <li>
                             <Link
-                              to="blog/blog-details"
+                              to="portfolio/portfolio-details"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Blog Details
+                              Portfolio Details
                             </Link>
                           </li>
                         </ul>
                       </DropDown>
                     </li>
-                    <li className="menu-item-has-children">
-                    <span></span>
-                  </span>
-                </Div>
-              </Div>
               <Div className="cs-main_header_right">
                 <Div className="cs-toolbox">
                   <span
