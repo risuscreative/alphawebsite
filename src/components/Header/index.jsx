@@ -60,15 +60,6 @@ export default function Header({ variant }) {
                         to="service"
                         onClick={() => setMobileToggle(false)}
                       >
-                        Services
-                      </NavLink>
-                      <DropDown>
-                        <ul>
-                          <li>
-                            <Link
-                              to="service"
-                              onClick={() => setMobileToggle(false)}
-                            >
                         About
                       </NavLink>
                     </li>
