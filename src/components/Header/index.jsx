@@ -147,6 +147,7 @@ export default function Header({ variant }) {
                               to="/contact"
                               onClick={() => setMobileToggle(false)}
                             >
+                             <Link>
                     <span></span>
                   </span>
                 </Div>
