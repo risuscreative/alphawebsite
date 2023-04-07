@@ -33,6 +33,9 @@
     align-items: center;
     height: 100%;
   }
+.menu-item-has-children a::after {
+    display: none !important
+}
 }
 
 .cs-site_header.cs-style1 {
