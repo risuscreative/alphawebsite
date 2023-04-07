@@ -83,37 +83,7 @@ export default function Header({ variant }) {
                       <NavLink
                         to="service"
                         onClick={() => setMobileToggle(false)}
-                      >                      
-                        Pages
-                      </Link>
-                      <DropDown>
-                        <ul>
-                          <li>
-                            <Link
-                              to="/contact"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Contact
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/team"
-                              onClick={() => setMobileToggle(false)}
-                            </Link>
-                          </li>
-                        </ul>
-                      </DropDown>
-                    </li>
-                  </ul>
-                  <span
-                    className={
-                      mobileToggle
-                        ? 'cs-munu_toggle cs-toggle_active'
-                        : 'cs-munu_toggle'
-                    }
-                    onClick={() => setMobileToggle(!mobileToggle)}
-                  >
+                      >                     
                     <span></span>
                   </span>
                 </Div>
