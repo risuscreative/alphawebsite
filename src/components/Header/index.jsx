@@ -52,6 +52,14 @@ export default function Header({ variant }) {
                         to="service"
                         onClick={() => setMobileToggle(false)}
                          >
+                       About
+                      </NavLink>
+                    </li>
+                    <li className="menu-item-has-children">
+                      <NavLink
+                        to="service"
+                        onClick={() => setMobileToggle(false)}
+                         >
                         About
                       </NavLink>
                     </li>
@@ -121,34 +129,71 @@ export default function Header({ variant }) {
                             <Link
                               to="blog"
                               onClick={() => setMobileToggle(false)}
-                     <li className="menu-item-has-children">
-                      <NavLink
-                        to="portfolio"
-                        onClick={() => setMobileToggle(false)}
-                      >
-                        Portfolio
-                      </NavLink>
-                      <DropDown>
-                        <ul>
-                          <li>
-                            <Link
-                              to="portfolio"
-                              onClick={() => setMobileToggle(false)}
                             >
-                              Portfolio
+                              Blog
                             </Link>
                           </li>
                           <li>
                             <Link
-                              to="portfolio/portfolio-details"
+                              to="blog/blog-details"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Portfolio Details
+                              Blog Details
                             </Link>
                           </li>
                         </ul>
                       </DropDown>
                     </li>
+                    <li className="menu-item-has-children">
+                      <Link to="/" onClick={() => setMobileToggle(false)}>
+                        Pages
+                      </Link>
+                      <DropDown>
+                        <ul>
+                          <li>
+                            <Link
+                              to="/contact"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Contact
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="/team"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Team
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="/team/team-details"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Case Study Details
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="/faq"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              FAQ
+                            </Link>
+                          </li>
+                        </ul>
+                      </DropDown>
+                    </li>
+                  </ul>
+                  <span
+                    className={
+                      mobileToggle
+                        ? 'cs-munu_toggle cs-toggle_active'
+                        : 'cs-munu_toggle'
+                    }
+                    onClick={() => setMobileToggle(!mobileToggle)}
+                  >
               <Div className="cs-main_header_right">
                 <Div className="cs-toolbox">
                   <span
