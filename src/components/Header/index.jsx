@@ -60,22 +60,82 @@ export default function Header({ variant }) {
                         to="service"
                         onClick={() => setMobileToggle(false)}
                       >
-                        Portfolyo
+                        Services
                       </NavLink>
+                      <DropDown>
+                        <ul>
+                          <li>
+                            <Link
+                              to="service"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Services
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="/service/service-details"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Service Details
+                            </Link>
+                          </li>
+                        </ul>
+                      </DropDown>
                     </li>
                     <li className="menu-item-has-children">
                       <NavLink
-                        to="service"
+                        to="portfolio"
                         onClick={() => setMobileToggle(false)}
                       >
-                        About
+                        Portfolio
                       </NavLink>
+                      <DropDown>
+                        <ul>
+                          <li>
+                            <Link
+                              to="portfolio"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Portfolio
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="portfolio/portfolio-details"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Portfolio Details
+                            </Link>
+                          </li>
+                        </ul>
+                      </DropDown>
                     </li>
                     <li className="menu-item-has-children">
-                      <NavLink
-                        to="service"
-                        onClick={() => setMobileToggle(false)}
-                      >
+                      <NavLink to="blog" onClick={() => setMobileToggle(false)}>
+                        Blog
+                      </NavLink>
+                      <DropDown>
+                        <ul>
+                          <li>
+                            <Link
+                              to="blog"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Blog
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="blog/blog-details"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Blog Details
+                            </Link>
+                          </li>
+                        </ul>
+                      </DropDown>
+                    </li>
                     <li className="menu-item-has-children">
                       <Link to="/" onClick={() => setMobileToggle(false)}>
                         Pages
