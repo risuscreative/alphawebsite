@@ -84,14 +84,22 @@ export default function Header({ variant }) {
                         to="service"
                         onClick={() => setMobileToggle(false)}
                       >                      
-                        Abouta
-                      </NavLink>
-                    </li>
-                    <li className="menu-item-has-children">
-                      <NavLink
-                        to="service"
-                        onClick={() => setMobileToggle(false)}
-                      >
+                        Pages
+                      </Link>
+                      <DropDown>
+                        <ul>
+                          <li>
+                            <Link
+                              to="/contact"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Contact
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="/team"
+                              onClick={() => setMobileToggle(false)}
                             </Link>
                           </li>
                         </ul>
