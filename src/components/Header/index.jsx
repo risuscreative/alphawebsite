@@ -75,7 +75,7 @@ export default function Header({ variant }) {
                       <NavLink
                         to="service"
                         onClick={() => setMobileToggle(false)}
-                    
+                        >
                     <li className="menu-item-has-children">
                       <NavLink to="blog" onClick={() => setMobileToggle(false)}>
                         Blog
