@@ -132,7 +132,6 @@ export default function Header({ variant }) {
                       <NavLink
                         to="servisace"
                         onClick={() => setMobileToggle(false)}
-                      >
 <li>
   <NavLink to="blog" onClick={() => setMobileToggle(false)}>
     Blog
