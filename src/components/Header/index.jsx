@@ -84,18 +84,6 @@ export default function Header({ variant }) {
                         to="service"
                         onClick={() => setMobileToggle(false)}
                         >                  
-                            </Link>
-                          </li>
-                        </ul>
-                      </DropDown>
-                    </li>
-                    <li className="menu-item-has-children">
-                            </Link>
-                          </li>
-                        </ul>
-                      </DropDown>
-                    </li>
-                  </ul>
                   <span
                     className={
                       mobileToggle
