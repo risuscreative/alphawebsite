@@ -110,39 +110,7 @@ export default function Header({ variant }) {
                           <li>
                             <Link
                               to="/contact"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Contact
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/team"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Team
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/team/team-details"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Team Details
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/case-study/case-study-details"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Case Study Details
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/faq"
-                              onClick={() => setMobileToggle(false)}
+                              onClick={() => setMobileTosggle(false)}
                             >
                               FAQ
                             </Link>
