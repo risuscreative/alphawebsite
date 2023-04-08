@@ -120,7 +120,6 @@ export default function Header({ variant }) {
                         Services
                       </NavLink>
                     </li>
-                    <li className="menu-item-has-children">
                       <NavLink
                         to="serviceas"
                         onClick={() => setMobileToggle(false)}
@@ -128,7 +127,6 @@ export default function Header({ variant }) {
                        Portfolyo
                       </NavLink>
                     </li>
-                    <li className="menu-item-has-children">
                       <NavLink
                         to="servisace"
                         onClick={() => setMobileToggle(false)}
