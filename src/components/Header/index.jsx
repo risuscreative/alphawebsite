@@ -102,8 +102,6 @@ export default function Header({ variant }) {
                       </DropDown>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="/" onClick={() => setMobileToggle(false)}>
-                        Pages
                             </Link>
                           </li>
                         </ul>
