@@ -65,6 +65,7 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
+                <img src="https://cdn.discordapp.com/attachments/1079101158452363395/1101565089372446750/Baslksz-1.png" style={{width: "100%", height: "100%"}}/>
               </Div>
             </Div>
           </Div>
