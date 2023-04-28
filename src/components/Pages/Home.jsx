@@ -194,12 +194,18 @@ export default function Home() {
       <Spacing lg="105" md="70" />
       {/* End MovingText Section */}
 
-      {/* Start LogoList Section */}
+      {/* Start Pricing Section */}
+      <Spacing lg="145" md="80" />
       <Div className="container">
-        <LogoList />
+        <SectionHeading
+          title="Providing best <br/>pricing for client"
+          subtitle="Pricing & Packaging"
+        />
+        <Spacing lg="85" md="40" />
+        <PricingTableList />
       </Div>
-      <Spacing lg="150" md="80" />
-      {/* End LogoList Section */}
+      <Spacing lg="125" md="55" />
+      {/* End Pricing Section */}
 
       {/* Start CTA Section */}
       <Div className="container">
