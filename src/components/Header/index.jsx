@@ -193,11 +193,6 @@ export default function Header({ variant }) {
             <ContactInfoWidget title="Contact Us" withIcon />
           </Div>
           <Div className="cs-side_header_box">
-            <Newsletter
-              title="Subscribe"
-              subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
-              placeholder="example@gmail.com"
-            />
           </Div>
           <Div className="cs-side_header_box">
             <SocialWidget />
