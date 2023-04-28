@@ -24,7 +24,7 @@ export default function Header({ variant }) {
   return (
     <>
       <header
-        className={`cs-site_header cs-style1 text-uppercase ${
+        className={`cs-site_header cs-style1 ${
           variant ? variant : ''
         } cs-sticky_header ${isSticky ? 'cs-sticky_header_active' : ''}`}
       >
@@ -112,7 +112,7 @@ export default function Header({ variant }) {
                         About
                       </NavLink>
                     </li>
-                    <li className="menu-item-has-children">
+                    <li>
                       <NavLink
                         to="service"
                         onClick={() => setMobileToggle(false)}
@@ -120,6 +120,7 @@ export default function Header({ variant }) {
                         Services
                       </NavLink>
                     </li>
+                    <li>
                       <NavLink
                         to="serviceas"
                         onClick={() => setMobileToggle(false)}
@@ -127,62 +128,10 @@ export default function Header({ variant }) {
                        Portfolyo
                       </NavLink>
                     </li>
-                      <NavLink
-                        to="servisace"
-                        onClick={() => setMobileToggle(false)}
-<li>
-  <NavLink to="blog" onClick={() => setMobileToggle(false)}>
-    Blog
-  </NavLink>
-</li>
-                    <li className="menu-item-has-children">
+                    <li>
                       <Link to="/" onClick={() => setMobileToggle(false)}>
                         Pages
                       </Link>
-                      <DropDown>
-                        <ul>
-                          <li>
-                            <Link
-                              to="/contact"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Contact
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/team"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Team
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/team/team-details"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Team Details
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/case-study/case-study-details"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Case Study Details
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to="/faq"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              FAQ
-                            </Link>
-                          </li>
-                        </ul>
-                      </DropDown>
                     </li>
                   </ul>
                   <span
