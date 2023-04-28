@@ -11,6 +11,7 @@ import MovingText from '../MovingText';
 import PortfolioSlider from '../Slider/PortfolioSlider';
 import PostSlider from '../Slider/PostSlider';
 import TestimonialSlider from '../Slider/TestimonialSlider';
+import PricingTableList from '../PricingTable/PricingTableList';
 import VideoModal from '../VideoModal';
 import TimelineSlider from '../Slider/TimelineSlider';
 import { pageTitle } from '../../helper';
