@@ -44,7 +44,7 @@ export default function Header({ variant }) {
                   >
                     <li>
                       <NavLink to="/" onClick={() => setMobileToggle(false)}>
-                        <i class="fa-solid fa-house fa-lg"></i> Ana Sayfa
+                        <i class="fa-solid fa-house fa-xs"></i> ANA SAYFA
                       </NavLink>
                     </li>
                     <li>
