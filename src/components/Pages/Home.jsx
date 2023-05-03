@@ -8,7 +8,7 @@ import Spacing from '../Spacing';
 import Cta from '../Cta';
 import LogoList from '../LogoList';
 import MovingText from '../MovingText';
-import PortfolioSlider from '../Slider/PortfolioSlider';
+import MasonryGallery from '../Gallery/MasonryGallery';
 import PostSlider from '../Slider/PostSlider';
 import TestimonialSlider from '../Slider/TestimonialSlider';
 import PricingTableList from '../PricingTable/PricingTableList';
