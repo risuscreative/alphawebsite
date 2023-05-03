@@ -16,24 +16,24 @@ export default function PricingTableList() {
         <Section className="col-lg-4">
           {tab==='monthly' && (
             <PricingTable 
-              title='Standard'
-              price='29'
+              title='Gaming Logo Tasarımı'
+              price='70'
               currency='₺'
-              timeline='monthly'
-              features={['Static responsive website', 'Video marketing', 'Keywords research', 'Facebook campaign', 'eCommerce solution', 'Google adword']}
-              btnText='Purchase Now'
-              btnLink='/'
+              timeline='başlangıç'
+              features={['Maskot, tipografik veya harf logo seçeneği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Favicon uyumlu', 'Yüksek kalite',]}
+              btnText='Satın Al'
+              btnLink='/iletisim'
             />
           )}
           {tab==='yearly' && (
             <PricingTable 
-              title='Standard'
-              price='59'
-              currency='$'
-              timeline='yearly'
-              features={['Static responsive website', 'Video marketing', 'Keywords research', 'Facebook campaign', 'eCommerce solution', 'Google adword']}
-              btnText='Purchase Now'
-              btnLink='/'
+              title='Kurumsal Logo Tasarımı'
+              price='120'
+              currency='₺'
+              timeline='başlangıç'
+              features={['Tipografik veya harf logo seçeneği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Favicon uyumlu', 'Yüksek kalite',]}
+              btnText='Satın Al'
+              btnLink='/iletisim'
             />
           )}
           <Spacing lg='25' md='25'/>
@@ -41,24 +41,24 @@ export default function PricingTableList() {
         <Section className="col-lg-4">
          {tab==='monthly' && (
             <PricingTable 
-              title='Professional'
-              price='199'
-              currency='$'
-              timeline='monthly'
-              features={['Static responsive website', 'Video marketing', 'Keywords research', 'Facebook campaign', 'eCommerce solution', 'Google adword']}
-              btnText='Purchase Now'
-              btnLink='/'
+              title='Konu Tasarımı'
+              price='250'
+              currency='₺'
+              timeline='başlangıç'
+              features={['Düzenlenebilir PSD dosya', '4 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
+              btnText='Satın Al'
+              btnLink='/iletisim'
             />
           )}
           {tab==='yearly' && (
             <PricingTable 
-              title='Professional'
-              price='399'
-              currency='$'
-              timeline='yearly'
-              features={['Static responsive website', 'Video marketing', 'Keywords research', 'Facebook campaign', 'eCommerce solution', 'Google adword']}
-              btnText='Purchase Now'
-              btnLink='/'
+              title='Gaming Paket'
+              price='120'
+              currency='₺'
+              timeline='başlangıç'
+              features={['Gaming sunucunuzu tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
+              btnText='Satın Al'
+              btnLink='/iletisim'
             />
           )}
           <Spacing lg='25' md='25'/>
@@ -66,24 +66,24 @@ export default function PricingTableList() {
         <Section className="col-lg-4">
           {tab==='monthly' && (
             <PricingTable 
-              title='Ultimate'
-              price='299'
-              currency='$'
-              timeline='monthly'
-              features={['Static responsive website', 'Video marketing', 'Keywords research', 'Facebook campaign', 'eCommerce solution', 'Google adword']}
-              btnText='Purchase Now'
-              btnLink='/'
+              title='Kurumsal Paket'
+              price='200'
+              currency='₺'
+              timeline='başlangıç'
+              features={['Firmanızı tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
+              btnText='Satın Al'
+              btnLink='/iletisim'
             />
           )}
           {tab==='yearly' && (
             <PricingTable 
-              title='Ultimate'
-              price='599'
-              currency='$'
-              timeline='yearly'
-              features={['Static responsive website', 'Video marketing', 'Keywords research', 'Facebook campaign', 'eCommerce solution', 'Google adword']}
-              btnText='Purchase Now'
-              btnLink='/'
+              title='Yayıncı Paket'
+              price='140'
+              currency='₺'
+              timeline='başlangıç'
+              features={['Kanalınızı tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
+              btnText='Satın Al'
+              btnLink='/iletisim'
             />
           )}
           <Spacing lg='25' md='25'/>
