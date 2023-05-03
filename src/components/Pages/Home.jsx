@@ -144,19 +144,11 @@ export default function Home() {
       </Div>
       {/* End Service Section */}
 
-      {/* Start Portfolio Section */}
-      <Spacing lg="150" md="50" />
-      <Div>
-        <Div className="container">
-          <SectionHeading
-            title="Tasarımlara Göz At"
-            subtitle="Son Çalışmalar"
-            variant="cs-style1 text-center"
-          />
-          <Spacing lg="90" md="45" />
-        </Div>
-        <PortfolioSlider />
-      </Div>
+      {/* Start Gallery Section */}
+      <Spacing lg="145" md="80" />
+      <MasonryGallery />
+      {/* End Gallery Section */}
+
 
       {/* Start Testimonial Section */}
       <TestimonialSlider />
