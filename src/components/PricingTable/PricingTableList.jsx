@@ -14,7 +14,7 @@ export default function PricingTableList() {
       </ul>
       <Section className="row">
         <Section className="col-lg-4">
-          {tab==='monthly' && (
+          {tab==='tekli' && (
             <PricingTable 
               title='Gaming Logo Tasarımı'
               price='70'
@@ -25,7 +25,7 @@ export default function PricingTableList() {
               btnLink='/iletisim'
             />
           )}
-          {tab==='monthly' && (
+          {tab==='tekli' && (
             <PricingTable 
               title='Kurumsal Logo Tasarımı'
               price='120'
@@ -39,7 +39,7 @@ export default function PricingTableList() {
           <Spacing lg='25' md='25'/>
         </Section>
         <Section className="col-lg-4">
-         {tab==='monthly' && (
+         {tab==='tekli' && (
             <PricingTable 
               title='Konu Tasarımı'
               price='250'
@@ -50,7 +50,7 @@ export default function PricingTableList() {
               btnLink='/iletisim'
             />
           )}
-          {tab==='yearly' && (
+          {tab==='paket' && (
             <PricingTable 
               title='Gaming Paket'
               price='120'
@@ -64,7 +64,7 @@ export default function PricingTableList() {
           <Spacing lg='25' md='25'/>
         </Section>
         <Section className="col-lg-4">
-          {tab==='yearly' && (
+          {tab==='paket' && (
             <PricingTable 
               title='Kurumsal Paket'
               price='200'
@@ -75,7 +75,7 @@ export default function PricingTableList() {
               btnLink='/iletisim'
             />
           )}
-          {tab==='yearly' && (
+          {tab==='paket' && (
             <PricingTable 
               title='Yayıncı Paket'
               price='140'
