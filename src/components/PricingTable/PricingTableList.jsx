@@ -20,7 +20,7 @@ export default function PricingTableList() {
               price='70'
               currency='₺'
               timeline='başlangıç'
-              features={['Maskot, tipografik veya harf logo seçeneği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Favicon uyumlu', 'Yüksek kalite',]}
+              features={['Maskot ve harf logo seçeneği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Favicon uyumlu', 'Yüksek kalite',]}
               btnText='Satın Al'
               btnLink='/iletisim'
             />
@@ -31,7 +31,7 @@ export default function PricingTableList() {
               price='120'
               currency='₺'
               timeline='başlangıç'
-              features={['Tipografik veya harf logo seçeneği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Favicon uyumlu', 'Yüksek kalite',]}
+              features={['Tharf logo seçeneği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Favicon uyumlu', 'Yüksek kalite',]}
               btnText='Satın Al'
               btnLink='/iletisim'
             />
