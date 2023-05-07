@@ -25,13 +25,16 @@ export default function PricingTableList() {
               btnLink='/iletisim'
             />
           )}
-          {tab==='tekli' && (
+          <Spacing lg='25' md='25'/>
+        </Section>
+        <Section className="col-lg-4">
+         {tab==='tekli' && (
             <PricingTable 
-              title='Kurumsal Logo Tasarımı'
-              price='120'
+              title='Konu Tasarımı'
+              price='250'
               currency='₺'
               timeline='başlangıç'
-              features={['Tharf logo seçeneği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Favicon uyumlu', 'Yüksek kalite',]}
+              features={['4 revize hakkı', '1-5 gün içinde teslim', 'PSD-PNG-JPG-PDF teslim', 'Yüksek kalite', 'Dinamik & özgün' , 'Modern & şık',]}
               btnText='Satın Al'
               btnLink='/iletisim'
             />
