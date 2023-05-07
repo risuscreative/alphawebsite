@@ -9,8 +9,8 @@ export default function PricingTableList() {
   return (
     <Section className="position-relative">
       <ul className="cs-tab_links cs-style1 cs-mp0 cs-primary_font">
-        <li className={tab === 'tekli' ? "active" : ""} onClick={()=>setTab('monthly')}>Tekli</li>
-        <li className={tab === 'paket' ? "active" : ""} onClick={()=>setTab('yearly')}>Paket</li>
+        <li className={tab === 'tekli' ? "active" : ""} onClick={()=>setTab('tekli')}>Tekli</li>
+        <li className={tab === 'paket' ? "active" : ""} onClick={()=>setTab('paket')}>Paket</li>
       </ul>
       <Section className="row">
         <Section className="col-lg-4">
