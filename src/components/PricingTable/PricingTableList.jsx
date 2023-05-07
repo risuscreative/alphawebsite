@@ -61,16 +61,13 @@ export default function PricingTableList() {
               btnLink='/iletisim'
             />
           )}
-          <Spacing lg='25' md='25'/>
-        </Section>
-        <Section className="col-lg-4">
           {tab==='paket' && (
             <PricingTable 
-              title='Kurumsal Paket'
-              price='200'
+              title='Gaming Paket'
+              price='120'
               currency='₺'
               timeline='başlangıç'
-              features={['Firmanızı tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
+              features={['Gaming sunucunuzu tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
               btnText='Satın Al'
               btnLink='/iletisim'
             />
