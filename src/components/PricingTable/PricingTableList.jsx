@@ -56,7 +56,7 @@ export default function PricingTableList() {
               price='200'
               currency='₺'
               timeline='başlangıç'
-              features={['Markanızı tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
+              features={['Markanızı tamamen tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
               btnText='Satın Al'
               btnLink='/iletisim'
             />
