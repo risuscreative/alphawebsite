@@ -64,7 +64,7 @@ function App() {
             element={<CreativePortfolioHome />}
           />
           <Route
-            path="showcase-portfolio"
+            path="deneme"
             element={<ShowcasePortfolioHome />}
           />
           <Route
