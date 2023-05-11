@@ -52,11 +52,11 @@ export default function PricingTableList() {
           )}
           {tab==='paket' && (
             <PricingTable 
-              title='Gaming Paket'
-              price='120'
+              title='Kurumsal Paket'
+              price='200'
               currency='₺'
               timeline='başlangıç'
-              features={['Gaming sunucunuzu tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
+              features={['Markanızı tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
               btnText='Satın Al'
               btnLink='/iletisim'
             />
@@ -81,7 +81,7 @@ export default function PricingTableList() {
               price='140'
               currency='₺'
               timeline='başlangıç'
-              features={['Kanalınızı tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
+              features={['Kanalınızı veya platformunuzu tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
               btnText='Satın Al'
               btnLink='/iletisim'
             />
