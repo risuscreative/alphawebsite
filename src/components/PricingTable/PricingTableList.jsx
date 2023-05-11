@@ -17,7 +17,7 @@ export default function PricingTableList() {
           {tab==='tekli' && (
             <PricingTable 
               title='Gaming Logo'
-              price='70'
+              price='75'
               currency='₺'
               timeline='başlangıç'
               features={['Maskot ve harf logo seçeneği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Favicon uyumlu', 'Yüksek kalite',]}
