@@ -24,17 +24,14 @@ export default function PricingTableList() {
               btnText='Satın Al'
               btnLink='/iletisim'
             />
-          )}
-          <Spacing lg='25' md='25'/>
-        </Section>
-        <Section className="col-lg-4">
-         {tab==='tekli' && (
+)}
+          {tab==='paket' && (
             <PricingTable 
-              title='Konu Tasarımı'
-              price='250'
+              title='Gaming Paket'
+              price='120'
               currency='₺'
               timeline='başlangıç'
-              features={['4 revize hakkı', '1-5 gün içinde teslim', 'PSD-PNG-JPG-PDF teslim', 'Yüksek kalite', 'Dinamik & özgün' , 'Modern & şık',]}
+              features={['Gaming sunucunuzu tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
               btnText='Satın Al'
               btnLink='/iletisim'
             />
@@ -63,14 +60,17 @@ export default function PricingTableList() {
               btnText='Satın Al'
               btnLink='/iletisim'
             />
-          )}
-          {tab==='paket' && (
+)}
+          <Spacing lg='25' md='25'/>
+        </Section>
+        <Section className="col-lg-4">
+         {tab==='tekli' && (
             <PricingTable 
-              title='Gaming Paket'
-              price='120'
+              title='Konu Tasarımı'
+              price='250'
               currency='₺'
               timeline='başlangıç'
-              features={['Gaming sunucunuzu tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
+              features={['4 revize hakkı', '1-5 gün içinde teslim', 'PSD-PNG-JPG-PDF teslim', 'Yüksek kalite', 'Dinamik & özgün' , 'Modern & şık',]}
               btnText='Satın Al'
               btnLink='/iletisim'
             />
