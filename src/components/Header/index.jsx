@@ -44,7 +44,7 @@ export default function Header({ variant }) {
                   >
                     <li>
                       <NavLink to="/" onClick={() => setMobileToggle(false)}>
-                        <i class="fa-regular fa-house"></i> ANA SAYFA
+                        <i class="fa-solid fa-house fa-sm"></i> ANA SAYFA
                       </NavLink>
                     </li>
                     <li>
