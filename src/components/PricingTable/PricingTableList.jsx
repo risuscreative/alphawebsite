@@ -16,7 +16,7 @@ export default function PricingTableList() {
         <Section className="col-lg-4">
           {tab==='tekli' && (
             <PricingTable 
-              title='Gaming Logo Tasarımı'
+              title='Gaming Logo'
               price='70'
               currency='₺'
               timeline='başlangıç'
@@ -42,10 +42,10 @@ export default function PricingTableList() {
          {tab==='tekli' && (
             <PricingTable 
               title='Konu Tasarımı'
-              price='250'
+              price='200'
               currency='₺'
               timeline='başlangıç'
-              features={['4 revize hakkı', '1-5 gün içinde teslim', 'PSD-PNG-JPG-PDF teslim', 'Yüksek kalite', 'Dinamik & özgün' , 'Modern & şık',]}
+              features={['4 revize hakkı', '1-5 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite', 'Dinamik & özgün' , 'Modern & şık','Tüm forumlarda kullanılabilir.' ]}
               btnText='Satın Al'
               btnLink='/iletisim'
             />
