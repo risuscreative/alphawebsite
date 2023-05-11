@@ -33,20 +33,20 @@ function App() {
           />
           <Route path="digital-agency" element={<DigitalAgencyHome />} />
           <Route path="marketing-agency" element={<MarketingAgencyHome />} />
-          <Route path="about" element={<AboutPage />} />
-          <Route path="service" element={<ServicesPage />} />
+          <Route path="hakkimizda" element={<AboutPage />} />
+          <Route path="hizmetler" element={<ServicesPage />} />
           <Route
             path="service/:serviceDetailsId"
             element={<ServiceDetailsPage />}
           />
-          <Route path="portfolio" element={<PortfolioPage />} />
+          <Route path="tasarimlar" element={<PortfolioPage />} />
           <Route
             path="portfolio/:portfolioDetailsId"
             element={<PortfolioDetailsPage />}
           />
           <Route path="blog" element={<BlogPage />} />
           <Route path="blog/:blogDetailsId" element={<BlogDetailsPage />} />
-          <Route path="contact" element={<ContactPage />} />
+          <Route path="iletisim" element={<ContactPage />} />
           <Route path="team" element={<TeamPage />} />
           <Route path="team/:teamDetails" element={<TeamDetails />} />
           <Route
