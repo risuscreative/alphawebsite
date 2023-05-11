@@ -13,7 +13,7 @@ export default function PricingTable({title, price, currency, features, btnLink,
           <h3 className="cs-white_color">{currency}{price}/</h3>
           <span className="cs-accent_color">{timeline}</span>
         </Div>
-        <Div className="cs-price_text">Per subscriber per year</Div>
+        <Div className="cs-price_text">Yükseltilebilir fiyat.</Div>
       </Div>
       <ul className="cs-pricing_feature cs-mp0">
         {features.map((feature, index)=>(
