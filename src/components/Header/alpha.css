@@ -1,3 +1,13 @@
 .menu-item-has-children a::after {
     display: none !important
 }
+
+.alpha-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
