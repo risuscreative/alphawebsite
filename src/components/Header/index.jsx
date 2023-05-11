@@ -44,7 +44,7 @@ export default function Header({ variant }) {
                   >
                     <li>
                       <NavLink to="/" onClick={() => setMobileToggle(false)}>
-                        <i class="fa-solid fa-house fa-sm"></i> ANA SAYFA
+                       ANA SAYFA
                       </NavLink>
                     </li>
                     <li>
@@ -52,7 +52,7 @@ export default function Header({ variant }) {
                         to="about"
                         onClick={() => setMobileToggle(false)}
                       >
-                        About
+                      TASARIMLAR
                       </NavLink>
                     </li>
                     <li>
@@ -60,7 +60,7 @@ export default function Header({ variant }) {
                         to="service"
                         onClick={() => setMobileToggle(false)}
                       >
-                        Services
+                        HİZMETLER
                       </NavLink>
                     </li>
                     <li>
@@ -68,12 +68,12 @@ export default function Header({ variant }) {
                         to="serviceas"
                         onClick={() => setMobileToggle(false)}
                       >
-                       Portfolyo
+                       HAKKIMIZDA
                       </NavLink>
                     </li>
                     <li>
                       <Link to="/" onClick={() => setMobileToggle(false)}>
-                        Pages
+                        İLETİŞİM
                       </Link>
                     </li>
                   </ul>
