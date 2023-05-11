@@ -66,11 +66,11 @@ export default function PricingTableList() {
         <Section className="col-lg-4">
          {tab==='tekli' && (
             <PricingTable 
-              title='Konu Tasarımı'
-              price='250'
+              title='Kurumsal Logo'
+              price='120'
               currency='₺'
               timeline='başlangıç'
-              features={['4 revize hakkı', '1-5 gün içinde teslim', 'PSD-PNG-JPG-PDF teslim', 'Yüksek kalite', 'Dinamik & özgün' , 'Modern & şık',]}
+              features={['4 revize hakkı', '1-5 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite', 'Dinamik & özgün' , 'Modern & şık',]}
               btnText='Satın Al'
               btnLink='/iletisim'
             />
