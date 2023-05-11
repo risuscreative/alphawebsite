@@ -45,7 +45,7 @@ export default function PricingTableList() {
               price='200'
               currency='₺'
               timeline='başlangıç'
-              features={['4 revize hakkı', '1-5 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite', 'Dinamik & özgün' , 'Modern & şık','Tüm forumlarda kullanılabilir.' ]}
+              features={['4 revize hakkı', '1-5 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite', 'Dinamik & özgün' , 'Modern & şık','Forumlarda kullanılabilir.' ]}
               btnText='Satın Al'
               btnLink='/iletisim'
             />
