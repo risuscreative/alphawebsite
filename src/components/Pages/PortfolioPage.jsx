@@ -39,7 +39,7 @@ export default function PortfolioPage() {
       title: 'Colorful Art Work',
       subtitle: 'See Details',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_7.jpeg',
+      src: '/images/alpha_twelvemaskot.png',
       category: 'mobile_apps',
     },
     {
