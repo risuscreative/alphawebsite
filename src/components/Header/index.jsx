@@ -49,7 +49,7 @@ export default function Header({ variant }) {
                     </li>
                     <li>
                       <NavLink
-                        to="about"
+                        to="tasarimlar"
                         onClick={() => setMobileToggle(false)}
                       >
                       TASARIMLAR
@@ -57,7 +57,7 @@ export default function Header({ variant }) {
                     </li>
                     <li>
                       <NavLink
-                        to="tasarimlar"
+                        to="hizmetler"
                         onClick={() => setMobileToggle(false)}
                       >
                         HİZMETLER
@@ -65,7 +65,7 @@ export default function Header({ variant }) {
                     </li>
                     <li>
                       <NavLink
-                        to="hizmetler"
+                        to="h"
                         onClick={() => setMobileToggle(false)}
                       >
                         HİZMETLER
