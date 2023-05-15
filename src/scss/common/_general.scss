@@ -1656,8 +1656,13 @@ label {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  border: 2px solid #FFFFFF;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  transition: all .2s;
+}
+
+.alpha-btn:hover {
+  transform: scale(1.25);
+  color: #e2e2e2
 }
