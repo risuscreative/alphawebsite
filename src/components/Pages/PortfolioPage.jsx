@@ -51,11 +51,10 @@ export default function PortfolioPage() {
       category: 'gaming',
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_10.jpeg',
-      category: 'logo_design',
+      title: 'South Roleplay',
+      subtitle: 'Banner Tasarımı',
+      src: '/images/alpha_Southbanner.png',
+      category: 'gaming',
     },
     {
       title: 'Colorful Art Work',
@@ -81,20 +80,12 @@ export default function PortfolioPage() {
   ];
   const categoryMenu = [
     {
-      title: 'Web Design',
-      category: 'web_design',
+      title: 'Gaming',
+      category: 'gaming',
     },
     {
-      title: 'UI/UX Design',
-      category: 'ui_ux_design',
-    },
-    {
-      title: 'Mobile Apps',
-      category: 'mobile_apps',
-    },
-    {
-      title: 'Logo Design',
-      category: 'logo_design',
+      title: 'Kurumsal',
+      category: 'kurumsal',
     },
   ];
 
@@ -168,7 +159,7 @@ export default function PortfolioPage() {
                 className="cs-text_btn"
                 onClick={() => setItemShow(itemShow + 3)}
               >
-                <span>Load More</span>
+                <span>Daha Fazla</span>
                 <Icon icon="bi:arrow-right" />
               </span>
             </>
