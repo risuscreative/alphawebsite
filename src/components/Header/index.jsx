@@ -65,18 +65,18 @@ export default function Header({ variant }) {
                     </li>
                     <li>
                       <NavLink
-                        to="h"
+                        to="iletisim"
                         onClick={() => setMobileToggle(false)}
                       >
-                        HİZMETLER
+                        İLETİŞİM
                       </NavLink>
                     </li>
                     <li>
                       <NavLink
-                        to="service"
+                        to="hakkimizda"
                         onClick={() => setMobileToggle(false)}
                       >
-                        HİZMETLER
+                        HAKKIMIZDA
                       </NavLink> 
                     </li>
                   </ul>
