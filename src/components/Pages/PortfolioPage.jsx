@@ -37,7 +37,7 @@ export default function PortfolioPage() {
     },
     {
       title: 'Banner iste',
-      src: '/images/alpha_twelvemaskot.png',
+      src: '/images/alpha_ceriabanner.png',
       category: 'gaming',
     },
     {
