@@ -15,7 +15,7 @@ export default function MasonryGallery() {
       subtitle: 'View Large',
       href: '/portfolio/portfolio-details',
       src: '/images/alpha_south.png',
-      src: '/images/alpha_south.png',
+      srcLg: '/images/alpha_south.png',
       category: 'wedding',
       height: 512,
       width: 512,
