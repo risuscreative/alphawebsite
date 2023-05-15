@@ -17,7 +17,8 @@ export default function MasonryGallery() {
       src: '/images/alpha_south.png',
       src: '/images/alpha_south.png',
       category: 'wedding',
-      height: 2000,
+      height: 512,
+      width: 512,
     },
     {
       title: 'Colorful Art Work',
