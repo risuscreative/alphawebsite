@@ -14,10 +14,10 @@ export default function MasonryGallery() {
       title: 'Colorful Art Work',
       subtitle: 'View Large',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_21.jpeg',
-      srcLg: '/images/portfolio_21_lg.jpeg',
+      src: '/images/alpha_south.png',
+      src: '/images/alpha_south.png',
       category: 'wedding',
-      height: 299,
+      height: 2000,
     },
     {
       title: 'Colorful Art Work',
