@@ -36,11 +36,9 @@ export default function PortfolioPage() {
       category: 'web_design',
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
+      title: 'Banner iste',
       src: '/images/alpha_twelvemaskot.png',
-      category: 'mobile_apps',
+      category: 'gaming',
     },
     {
       title: 'Colorful Art Work',
