@@ -183,7 +183,7 @@ export default function Home() {
       {/* Start MovingText Section */}
       <Spacing lg="125" md="70" />
       <MovingText text="Desteklediğimiz sponsorlar" />
-      <Spacing lg="55" md="40" />
+      <Spacing lg="15" md="40" />
       {/* End MovingText Section */}
 
       {/* Start Pricing Section */}
