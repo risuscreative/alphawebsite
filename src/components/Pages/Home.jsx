@@ -59,8 +59,8 @@ export default function Home() {
     <>
       {/* Start Hero Section */}
       <Hero
-        title="Profesyonel Dizayn <br/>Kaliteli Yaşam"
-        subtitle="2021'den beri gelişen tecrübemizle sizlere grafik tasarım hizmeti sağlamaktayız"
+        title="Hizmet Verir, <br/>Değer Katar"
+        subtitle="2021'den bugüne gelişen tecrübemizle sizlere grafik tasarım hizmeti sağlamaktayız"
         btnText="Sipariş Oluştur"
         btnLink="/contact"
         scrollDownId="#service"
