@@ -66,7 +66,7 @@ export default function Home() {
         scrollDownId="#service"
         socialLinksHeading="Takip Et"
         heroSocialLinks={heroSocialLinks}
-        bgImageUrl="/images/hero_bg.jpeg"
+        bgImageUrl="/images/slider_5.jpeg"
       />
       {/* End Hero Section */}
 
