@@ -7,7 +7,7 @@ import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 import Cta from '../Cta';
 import LogoList from '../LogoList';
-import MovingText from '../MovingText';
+import MovingText2 from '../MovingText/MovingText2';
 import MasonryGallery from '../Gallery/MasonryGallery';
 import PostSlider from '../Slider/PostSlider';
 import TestimonialSlider from '../Slider/TestimonialSlider';
@@ -180,11 +180,11 @@ export default function Home() {
       </Div>
       {/* End Blog Section */}
 
-      {/* Start MovingText Section */}
-      <Spacing lg="125" md="70" />
-      <MovingText text="Desteklediğimiz sponsorlar" />
-      <Spacing lg="15" md="40" />
-      {/* End MovingText Section */}
+      {/* Start Moving Text Section */}
+      <MovingText2 data={serviceData1} />
+      <Spacing lg="20" md="10" />
+      <MovingText2 reverseDirection data={serviceData2} />
+      {/* End Moving Text Section */}
 
       {/* Start Pricing Section */}
       <Spacing lg="145" md="80" />
