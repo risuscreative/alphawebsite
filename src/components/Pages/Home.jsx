@@ -17,7 +17,7 @@ import TimelineSlider from '../Slider/TimelineSlider';
 import { pageTitle } from '../../helper';
 
 export default function Home() {
-  pageTitle('Home');
+  pageTitle('Alpha Graphic Art');
 
   // Hero Social Links
   const heroSocialLinks = [
