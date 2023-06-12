@@ -144,32 +144,6 @@ export default function Home() {
       </Div>
       {/* End Service Section */}
 
-      {/* Start Blog Section */}
-      <Spacing lg="150" md="80" />
-      <Div className="cs-shape_wrap_4">
-        <Div className="cs-shape_4"></Div>
-        <Div className="cs-shape_4"></Div>
-        <Div className="container">
-          <Div className="row">
-            <Div className="col-xl-4">
-              <SectionHeading
-                title="Paylaşımları Keşfet"
-                subtitle="Blog"
-                btnText="Daha Fazla Görüntüle"
-                btnLink="/blog"
-              />
-              <Spacing lg="90" md="45" />
-            </Div>
-            <Div className="col-xl-7 offset-xl-1">
-              <Div className="cs-half_of_full_width">
-                <PostSlider />
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-      </Div>
-      {/* End Blog Section */}
-
       {/* Start Gallery Section */}
       <Spacing lg="145" md="80" />
       <MasonryGallery />
@@ -198,6 +172,32 @@ export default function Home() {
       </Div>
       <Spacing lg="125" md="55" />
       {/* End Pricing Section */}
+
+      {/* Start Blog Section */}
+      <Spacing lg="150" md="80" />
+      <Div className="cs-shape_wrap_4">
+        <Div className="cs-shape_4"></Div>
+        <Div className="cs-shape_4"></Div>
+        <Div className="container">
+          <Div className="row">
+            <Div className="col-xl-4">
+              <SectionHeading
+                title="Paylaşımları Keşfet"
+                subtitle="Blog"
+                btnText="Daha Fazla Görüntüle"
+                btnLink="/blog"
+              />
+              <Spacing lg="90" md="45" />
+            </Div>
+            <Div className="col-xl-7 offset-xl-1">
+              <Div className="cs-half_of_full_width">
+                <PostSlider />
+              </Div>
+            </Div>
+          </Div>
+        </Div>
+      </Div>
+      {/* End Blog Section */}
 
       {/* Start CTA Section */}
       <Div className="container">
