@@ -17,7 +17,7 @@ import TimelineSlider from '../Slider/TimelineSlider';
 import { pageTitle } from '../../helper';
 
 export default function Home() {
-  pageTitle('Alpha Graphic Art');
+  pageTitle('Ana Sayfa');
 
   // Hero Social Links
   const heroSocialLinks = [
@@ -81,6 +81,32 @@ export default function Home() {
       </div>
       {/* End FunFact Section */}
 
+      {/* Start Blog Section */}
+      <Spacing lg="150" md="80" />
+      <Div className="cs-shape_wrap_4">
+        <Div className="cs-shape_4"></Div>
+        <Div className="cs-shape_4"></Div>
+        <Div className="container">
+          <Div className="row">
+            <Div className="col-xl-4">
+              <SectionHeading
+                title="Paylaşımları Keşfet"
+                subtitle="Blog"
+                btnText="Daha Fazla Görüntüle"
+                btnLink="/blog"
+              />
+              <Spacing lg="90" md="45" />
+            </Div>
+            <Div className="col-xl-7 offset-xl-1">
+              <Div className="cs-half_of_full_width">
+                <PostSlider />
+              </Div>
+            </Div>
+          </Div>
+        </Div>
+      </Div>
+      {/* End Blog Section */}
+
       {/* Start Service Section */}
       <Spacing lg="150" md="80" />
       <Div id="service">
@@ -143,32 +169,6 @@ export default function Home() {
         </Div>
       </Div>
       {/* End Service Section */}
-
-      {/* Start Blog Section */}
-      <Spacing lg="150" md="80" />
-      <Div className="cs-shape_wrap_4">
-        <Div className="cs-shape_4"></Div>
-        <Div className="cs-shape_4"></Div>
-        <Div className="container">
-          <Div className="row">
-            <Div className="col-xl-4">
-              <SectionHeading
-                title="Paylaşımları Keşfet"
-                subtitle="Blog"
-                btnText="Daha Fazla Görüntüle"
-                btnLink="/blog"
-              />
-              <Spacing lg="90" md="45" />
-            </Div>
-            <Div className="col-xl-7 offset-xl-1">
-              <Div className="cs-half_of_full_width">
-                <PostSlider />
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-      </Div>
-      {/* End Blog Section */}
 
       {/* Start Gallery Section */}
       <Spacing lg="145" md="80" />
