@@ -154,11 +154,11 @@ export default function Home() {
       <TestimonialSlider />
       {/* End Testimonial Section */}
 
-      {/* Start Moving Text Section */}
-      <MovingText2 data={serviceData1} />
-      <Spacing lg="20" md="10" />
-      <MovingText2 reverseDirection data={serviceData2} />
-      {/* End Moving Text Section */}
+      {/* Start MovingText Section */}
+      <Spacing lg="125" md="70" />
+      <MovingText text="Our reputed world wide partners" />
+      <Spacing lg="105" md="70" />
+      {/* End MovingText Section */}
 
       {/* Start Pricing Section */}
       <Spacing lg="145" md="80" />
