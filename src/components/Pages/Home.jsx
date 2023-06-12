@@ -144,16 +144,6 @@ export default function Home() {
       </Div>
       {/* End Service Section */}
 
-      {/* Start Gallery Section */}
-      <Spacing lg="145" md="80" />
-      <MasonryGallery />
-      {/* End Gallery Section */}
-
-
-      {/* Start Testimonial Section */}
-      <TestimonialSlider />
-      {/* End Testimonial Section */}
-
       {/* Start Blog Section */}
       <Spacing lg="150" md="80" />
       <Div className="cs-shape_wrap_4">
@@ -179,6 +169,16 @@ export default function Home() {
         </Div>
       </Div>
       {/* End Blog Section */}
+
+      {/* Start Gallery Section */}
+      <Spacing lg="145" md="80" />
+      <MasonryGallery />
+      {/* End Gallery Section */}
+
+
+      {/* Start Testimonial Section */}
+      <TestimonialSlider />
+      {/* End Testimonial Section */}
 
       {/* Start Moving Text Section */}
       <MovingText2 data={serviceData1} />
