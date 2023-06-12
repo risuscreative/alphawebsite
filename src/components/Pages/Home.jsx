@@ -7,7 +7,7 @@ import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 import Cta from '../Cta';
 import LogoList from '../LogoList';
-import MovingText2 from '../MovingText/MovingText2';
+import MovingText from '../MovingText';
 import MasonryGallery from '../Gallery/MasonryGallery';
 import PostSlider from '../Slider/PostSlider';
 import TestimonialSlider from '../Slider/TestimonialSlider';
