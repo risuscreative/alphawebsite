@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import WaterWave from 'react-water-wave';
 import { Link } from 'react-router-dom'
 import Div from '../Div'
 
@@ -17,6 +18,19 @@ export default function Hero2({data, phoneNumber, email}) {
               <Div className="cs-hero_tab_img cs-bg" style={{backgroundImage: `url(${item.imageUrl})`}} />
               <h2 onMouseEnter={() => handelActive(index)}><Link to={item.href}>{item.title}</Link></h2>
             </Div>
+      <WaterWave
+        className="cs-hero_bg cs-bg cs-ripple_version cs-center"
+        imageUrl={bgImageUrl}
+      >
+        {() => (
+          <Div className="container">
+            <Div className="cs-hero_text text-center">
+              <h1 className="cs-hero_title">{parse(title)}</h1>
+              <Button btnLink={btnLink} btnText={btnText} />
+            </Div>
+          </Div>
+        )}
+      </WaterWave>
           ))}
         </Div>
       </Div>
