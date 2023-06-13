@@ -106,7 +106,7 @@ export default function Home() {
                 title="Sizlere Verdiğimiz Hizmetler"
                 subtitle="Hizmetler"
                 btnText="Bütün Hizmetleri Görüntüle"
-                btnLink="/service"
+                btnLink="/hizmetler"
               />
               <Spacing lg="90" md="45" />
             </Div>
@@ -160,7 +160,7 @@ export default function Home() {
       {/* End Service Section */}
 
       {/* Start Gallery Section */}
-      <Spacing lg="145" md="80" />
+      <Spacing lg="70" md="80" />
       <MasonryGallery />
       {/* End Gallery Section */}
 
@@ -170,13 +170,13 @@ export default function Home() {
       {/* End Testimonial Section */}
 
       {/* Start MovingText Section */}
-      <Spacing lg="125" md="70" />
+      <Spacing lg="70" md="70" />
       <MovingText text="Our reputed world wide partners" />
       <Spacing lg="105" md="70" />
       {/* End MovingText Section */}
 
       {/* Start Pricing Section */}
-      <Spacing lg="145" md="80" />
+      <Spacing lg="70" md="80" />
       <Div className="container">
         <SectionHeading
           title="Providing best <br/>pricing for client"
@@ -185,7 +185,7 @@ export default function Home() {
         <Spacing lg="85" md="40" />
         <PricingTableList />
       </Div>
-      <Spacing lg="125" md="55" />
+      <Spacing lg="70" md="55" />
       {/* End Pricing Section */}
 
       {/* Start CTA Section */}
