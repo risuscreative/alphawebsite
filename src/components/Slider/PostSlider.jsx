@@ -11,7 +11,7 @@ export default function PostSlider() {
       title:'Kaliteli & profesyonel tasarım.'
     },
     {
-      url:'/iletisim', 
+      url:'https://alphawebsite.vercel.app/iletisim', 
       src:'/images/2.png', 
       alt:'Post', 
       title:'Güvenli ödeme kolaylığı.'
