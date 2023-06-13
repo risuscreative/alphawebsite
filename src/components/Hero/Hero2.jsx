@@ -18,7 +18,7 @@ export default function Hero2({data, phoneNumber, email}) {
               <Div className="cs-hero_tab_img cs-bg" style={{backgroundImage: `url(${item.imageUrl})`}} />
               <h2 onMouseEnter={() => handelActive(index)}><Link to={item.href}>{item.title}</Link></h2>
             </Div>
-      </WaterWave
+      </WaterWave>
         className="cs-hero_bg cs-bg cs-ripple_version cs-center"
         imageUrl={bgImageUrl}
       >
