@@ -21,28 +21,28 @@ export default function PostSlider() {
     },
     {
       url:'/blog/blog-details', 
-      src:'/images/post_3.jpeg', 
+      src:'/images/3.png',  
       alt:'Post', 
       date:'05 Mar 2022',
       title:'A.I will take over all job for human within next year'
     },
     {
       url:'/blog/blog-details', 
-      src:'/images/3.png', 
+      src:'/images/4.png', 
       alt:'Post', 
       date:'07 Mar 2022', 
       title:'How to keep fear from ruining your art business with confident'
     },
     {
       url:'/blog/blog-details', 
-      src:'/images/4.png', 
+      src:'/images/5.png', 
       alt:'Post', 
       date:'10 Feb 2022',
       title:'Artistic mind will be great for creation anything'
     },
     {
       url:'/blog/blog-details', 
-      src:'/images/5.png', 
+      src:'/images/6.png', 
       alt:'Post', 
       date:'05 Mar 2022',
       title:'A.I will take over all job for human within next year'
