@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Card from '../Card';
 import FunFact from '../FunFact';
-import Hero3 from '../Hero/Hero2';
+import Hero from '../Hero';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
@@ -57,16 +57,18 @@ export default function Home() {
 
   return (
     <>
-      {/* Start Hero Section */}
-      <Hero3
-        title="Arino Creative <br />Portfolio"
-        btnLink="contact"
-        btnText={`Let's talk`}
-        socialLinksHeading="Follow Us"
+{/* Start Hero Section /}
+      <Hero
+        title="Hizmet Verir, <br/>Değer Katar"
+        subtitle="2021'den bugüne gelişen tecrübemizle sizlere grafik tasarım hizmeti sağlamaktayız"
+        btnText="Sipariş Oluştur"
+        btnLink="/contact"
+        scrollDownId="#service"
+        socialLinksHeading="Takip Et"
         heroSocialLinks={heroSocialLinks}
-        bgImageUrl="./images/hero_bg_4.jpeg"
+        bgImageUrl="/images/slider_5.jpeg"
       />
-      {/* End Hero Section */}
+      {/ End Hero Section */}
 
       {/* Start Blog Section */}
       <Spacing lg="50" md="80" />
