@@ -6,46 +6,39 @@ import Post from '../Post';
 export default function PostSlider() {
   const postData = [
     {
-      url:'/blog/blog-details', 
       src:'/images/1.png', 
-      alt:'Post', 
-      date:'07 Mar 2022', 
-      title:'How to keep fear from ruining your art business with confident'
+      alt:'Post',  
+      title:'Kaliteli & profesyonel tasarım.'
     },
     {
-      url:'/blog/blog-details', 
+      url:'/iletisim', 
       src:'/images/2.png', 
       alt:'Post', 
-      date:'10 Feb 2022',
-      title:'Artistic mind will be great for creation anything'
+      title:'Güvenli ödeme kolaylığı.'
     },
     {
       url:'/blog/blog-details', 
       src:'/images/3.png',  
       alt:'Post', 
-      date:'05 Mar 2022',
-      title:'A.I will take over all job for human within next year'
+      title:'Özenli ve düzenli çalışma'
     },
     {
       url:'/blog/blog-details', 
       src:'/images/4.png', 
       alt:'Post', 
-      date:'07 Mar 2022', 
-      title:'How to keep fear from ruining your art business with confident'
+      title:'7/24 hızlı destek imkanı.'
     },
     {
       url:'/blog/blog-details', 
       src:'/images/5.png', 
       alt:'Post', 
-      date:'10 Feb 2022',
-      title:'Artistic mind will be great for creation anything'
+      title:'2 revize hakkı.'
     },
     {
       url:'/blog/blog-details', 
       src:'/images/6.png', 
       alt:'Post', 
-      date:'05 Mar 2022',
-      title:'A.I will take over all job for human within next year'
+      title:'Tercih eden +250 müşteri.'
     }
   ]
   
