@@ -30,7 +30,7 @@ export default function Hero2({data, phoneNumber, email}) {
             </Div>
           </Div>
         )}
-      </WaterWave>
+      WaterWave>
           ))}
         </Div>
       </Div>
