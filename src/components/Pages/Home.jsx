@@ -79,10 +79,10 @@ export default function Home() {
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title="Paylaşımları Keşfet"
-                subtitle="Blog"
-                btnText="Daha Fazla Görüntüle"
-                btnLink="/blog"
+                title="Neden Biz?"
+                subtitle="Özellikler"
+                btnText="İletişim"
+                btnLink="/iletisim"
               />
               <Spacing lg="90" md="45" />
             </Div>
