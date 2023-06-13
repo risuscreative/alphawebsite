@@ -59,14 +59,14 @@ export default function Home() {
     <>
       {/* Start Hero Section */}
       <Hero
-        title="Creativity In <br/>Our Blood Line"
-        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
-        btnText="Get a Quote"
+        title="Hizmet Verir, <br/>Değer Katar"
+        subtitle="2021'den bugüne gelişen tecrübemizle sizlere grafik tasarım hizmeti sağlamaktayız"
+        btnText="Sipariş Oluştur"
         btnLink="/contact"
         scrollDownId="#service"
-        socialLinksHeading="Follow Us"
+        socialLinksHeading="Takip Et"
         heroSocialLinks={heroSocialLinks}
-        bgImageUrl="/images/hero_bg.jpeg"
+        bgImageUrl="/images/slider_5.jpeg"
       />
       {/* End Hero Section */}
 
