@@ -16,7 +16,7 @@ export default function MasonryGallery() {
       href: '/portfolio/portfolio-details',
       src: '/images/alpha_south.png',
       srcLg: '/images/alpha_south.png',
-      category: 'gaminglogo',
+      category: 'gaming',
       height: 512,
     },
     {
@@ -25,16 +25,16 @@ export default function MasonryGallery() {
       href: '/portfolio/portfolio-details',
       src: '/images/alpha_rewore.png',
       srcLg: '/images/alpha_rewore.png',
-      category: 'gaminglogo',
+      category: 'gaming',
       height: 512,
     },
     {
-      title: 'South Roleplay',
+      title: 'Zagros Roleplay',
       subtitle: 'Logo Tasarımı',
       href: '/portfolio/portfolio-details',
       src: '/images/alpha_south.png',
       srcLg: '/images/alpha_south.png',
-      category: 'gaminglogo',
+      category: 'gaming',
       height: 512,
     },
     {
@@ -52,11 +52,11 @@ export default function MasonryGallery() {
       href: '/portfolio/portfolio-details',
       src: '/images/alpha_venroetkinlik.png',
       srcLg: '/images/alpha_venroetkinlik.png',
-      category: 'post',
+      category: 'diger',
       height: 256,
     },
     {
-      title: 'South Roleplay',
+      title: 'Riva Community',
       subtitle: 'Logo Tasarımı',
       href: '/portfolio/portfolio-details',
       src: '/images/alpha_south.png',
@@ -139,8 +139,8 @@ export default function MasonryGallery() {
   ];
   const categoryMenu = [
     {
-      title: 'Wedding',
-      category: 'wedding',
+      title: 'Gaming Logo',
+      category: 'gaminglogo',
     },
     {
       title: 'Portrait',
