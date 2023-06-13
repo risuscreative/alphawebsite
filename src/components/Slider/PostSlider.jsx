@@ -7,7 +7,7 @@ export default function PostSlider() {
   const postData = [
     {
       url:'/blog/blog-details', 
-      src:'/images/post_1.jpeg', 
+      src:'/images/1.png', 
       alt:'Post', 
       date:'07 Mar 2022', 
       title:'How to keep fear from ruining your art business with confident'
