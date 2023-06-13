@@ -140,7 +140,7 @@ export default function MasonryGallery() {
   const categoryMenu = [
     {
       title: 'Gaming Logo',
-      category: 'gaminglogo',
+      category: 'gaming',
     },
     {
       title: 'Portrait',
