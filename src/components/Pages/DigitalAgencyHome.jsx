@@ -145,14 +145,15 @@ export default function DigitalAgencyHome() {
   return (
     <>
       {/* Start Hero Section */}
-      <Hero4
-        title="We Are <span>A</span>rino <br />Digital Agency"
-        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
+      <Hero
+        title="Hizmet Verir, <br/>Değer Katar"
+        subtitle="2021'den bugüne gelişen tecrübemizle sizlere grafik tasarım hizmeti sağlamaktayız"
+        btnText="Sipariş Oluştur"
+        btnLink="/contact"
         scrollDownId="#service"
-        socialLinksHeading="Follow Us"
+        socialLinksHeading="Takip Et"
         heroSocialLinks={heroSocialLinks}
-        phoneNumber="+044 546664"
-        email="info@arino.com"
+        bgImageUrl="/images/slider_5.jpeg"
       />
       {/* End Hero Section */}
 
