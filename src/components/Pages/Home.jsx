@@ -57,21 +57,21 @@ export default function Home() {
 
   return (
     <>
-{/* Start Hero Section /}
+      {/* Start Hero Section */}
       <Hero
-        title="Hizmet Verir, <br/>Değer Katar"
-        subtitle="2021'den bugüne gelişen tecrübemizle sizlere grafik tasarım hizmeti sağlamaktayız"
-        btnText="Sipariş Oluştur"
+        title="Creativity In <br/>Our Blood Line"
+        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
+        btnText="Get a Quote"
         btnLink="/contact"
         scrollDownId="#service"
-        socialLinksHeading="Takip Et"
+        socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
-        bgImageUrl="/images/slider_5.jpeg"
+        bgImageUrl="/images/hero_bg.jpeg"
       />
-      {/ End Hero Section */}
+      {/* End Hero Section */}
 
       {/* Start Blog Section */}
-      <Spacing lg="50" md="80" />
+      <Spacing lg="150" md="80" />
       <Div className="cs-shape_wrap_4">
         <Div className="cs-shape_4"></Div>
         <Div className="cs-shape_4"></Div>
