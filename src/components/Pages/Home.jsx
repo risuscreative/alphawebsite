@@ -68,17 +68,6 @@ export default function Home() {
       />
       {/* End Hero Section */}
 
-      {/* Start FunFact Section */}
-      <div className="container">
-        <FunFact
-          variant="cs-type1"
-          title="Sayılarla Biz"
-          subtitle="Alpha Graphic Art olarak her geçen gün memnun müşterilerimiz ve profesyonel işlerimiz sayesinde sayılarımızı artırıyoruz."
-          data={funfaceData}
-        />
-      </div>
-      {/* End FunFact Section */}
-
       {/* Start Blog Section */}
       <Spacing lg="150" md="80" />
       <Div className="cs-shape_wrap_4">
