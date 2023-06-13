@@ -58,15 +58,13 @@ export default function Home() {
   return (
     <>
       {/* Start Hero Section */}
-      <Hero
-        title="Hizmet Verir, <br/>Değer Katar"
-        subtitle="2021'den bugüne gelişen tecrübemizle sizlere grafik tasarım hizmeti sağlamaktayız"
-        btnText="Sipariş Oluştur"
-        btnLink="/contact"
-        scrollDownId="#service"
-        socialLinksHeading="Takip Et"
+      <Hero3
+        title="Arino Creative <br />Portfolio"
+        btnLink="contact"
+        btnText={`Let's talk`}
+        socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
-        bgImageUrl="/images/slider_5.jpeg"
+        bgImageUrl="./images/hero_bg_4.jpeg"
       />
       {/* End Hero Section */}
 
