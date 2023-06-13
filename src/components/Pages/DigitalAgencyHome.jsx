@@ -51,29 +51,29 @@ export default function DigitalAgencyHome() {
   ];
   const serviceData1 = [
     {
-      title: 'Logo Tasarımı',
+      title: 'UI/UX Design',
       href: '/service/service-details',
     },
     {
-      title: 'GIF Tasarımı',
+      title: 'Marketing',
       href: '/service/service-details',
     },
     {
-      title: 'Kurumsal Kimlik',
+      title: 'Branding',
       href: '/service/service-details',
     },
   ];
   const serviceData2 = [
     {
-      title: 'Yayıncı Paketleri',
+      title: 'SEO',
       href: '/service/service-details',
     },
     {
-      title: 'Intro/Outro',
+      title: 'App design',
       href: '/service/service-details',
     },
     {
-      title: 'Konu Tasarımı',
+      title: 'React Developer',
       href: '/service/service-details',
     },
   ];
@@ -145,15 +145,14 @@ export default function DigitalAgencyHome() {
   return (
     <>
       {/* Start Hero Section */}
-      <Hero
-        title="Hizmet Verir, <br/>Değer Katar"
-        subtitle="2021'den bugüne gelişen tecrübemizle sizlere grafik tasarım hizmeti sağlamaktayız"
-        btnText="Sipariş Oluştur"
-        btnLink="/contact"
+      <Hero4
+        title="We Are <span>A</span>rino <br />Digital Agency"
+        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
         scrollDownId="#service"
-        socialLinksHeading="Takip Et"
+        socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
-        bgImageUrl="/images/slider_5.jpeg"
+        phoneNumber="+044 546664"
+        email="info@arino.com"
       />
       {/* End Hero Section */}
 
