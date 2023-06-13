@@ -12,9 +12,9 @@ export default function ErrorPage() {
     >
       <Div className="container">
         <SectionHeading
-          title="This page could <br/>not be found."
-          subtitle="404 Errro"
-          btnText="Back To Home"
+          title="Burada bir şey bulamadık."
+          subtitle="404"
+          btnText="Ana Sayfaya Dön"
           btnLink="/"
           variant="cs-style1 text-center"
         />
