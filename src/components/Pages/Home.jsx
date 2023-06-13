@@ -71,7 +71,7 @@ export default function Home() {
       {/* End Hero Section */}
 
       {/* Start Blog Section */}
-      <Spacing lg="70" md="40" />
+      <Spacing lg="70" md="80" />
       <Div className="cs-shape_wrap_4">
         <Div className="cs-shape_4"></Div>
         <Div className="cs-shape_4"></Div>
@@ -97,7 +97,7 @@ export default function Home() {
       {/* End Blog Section */}
 
       {/* Start Service Section */}
-      <Spacing lg="150" md="80" />
+      <Spacing lg="70" md="80" />
       <Div id="service">
         <Div className="container">
           <Div className="row">
