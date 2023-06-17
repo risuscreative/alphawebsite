@@ -199,7 +199,7 @@ const serviceData2 = [
 
       {/* Start Moving Text Section */}
       <MovingText2 data={serviceData1} />
-      <Spacing lg="20" md="10" />
+      <Spacing lg="20" md="20" />
       <MovingText2 reverseDirection data={serviceData2} />
       {/* End Moving Text Section */}
 
