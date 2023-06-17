@@ -19,7 +19,7 @@ export default function ContactPage() {
         bgSrc="/images/contact_hero_bg.jpeg"
         pageLinkText="Contact"
       />
-      <Spacing lg="60" md="40" />
+      <Spacing lg="30" md="20" />
       <Div className="container">
         <Div className="row">
           <Div className="col-lg-6">
