@@ -62,7 +62,7 @@ export default function ServiceList() {
                   width={30}
                   height={29}
                   viewBox="0 0 30 29"
-                  fill="none"
+                  fill="#6300f9"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
