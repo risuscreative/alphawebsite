@@ -167,7 +167,7 @@ export default function MasonryGallery() {
     <>
       <Div className="container">
         <Div className="cs-portfolio_1_heading">
-          <SectionHeading title="Some recent work" subtitle="Our Portfolio" />
+          <SectionHeading title="Yapılan Bazı Çalışmalar" subtitle="Portfolyo" />
           <Div className="cs-filter_menu cs-style1">
             <ul className="cs-mp0 cs-center">
               <li className={active === 'all' ? 'active' : ''}>
@@ -237,7 +237,7 @@ export default function MasonryGallery() {
                 className="cs-text_btn"
                 onClick={() => setItemShow(itemShow + 4)}
               >
-                <span>Load More</span>
+                <span>Daha Fazla</span>
                 <Icon icon="bi:arrow-right" />
               </span>
             </>
