@@ -52,30 +52,30 @@ export default function Home() {
   ];
 const serviceData1 = [
   {
-    title: 'UI/UX Design',
-    href: '/service/service-details',
+    title: 'Profesyonel',
+    href: '/iletisim',
   },
   {
-    title: 'Marketing',
-    href: '/service/service-details',
+    title: 'Özgün',
+    href: '/iletisim',
   },
   {
-    title: 'Branding',
-    href: '/service/service-details',
+    title: 'Modern',
+    href: '/iletisim',
   },
 ];
 const serviceData2 = [
   {
-    title: 'SEO',
-    href: '/service/service-details',
+    title: 'Şık',
+    href: '/iletisim',
   },
   {
-    title: 'App design',
-    href: '/service/service-details',
+    title: 'Dinamik',
+    href: '/iletisim',
   },
   {
-    title: 'React Developer',
-    href: '/service/service-details',
+    title: 'Ekonomik',
+    href: '/iletisim',
   },
 ];
 
@@ -199,7 +199,7 @@ const serviceData2 = [
 
       {/* Start Moving Text Section */}
       <MovingText2 data={serviceData1} />
-      <Spacing lg="20" md="20" />
+      <Spacing lg="20" md="10" />
       <MovingText2 reverseDirection data={serviceData2} />
       {/* End Moving Text Section */}
 
