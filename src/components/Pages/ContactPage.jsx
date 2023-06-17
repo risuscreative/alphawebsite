@@ -15,7 +15,7 @@ export default function ContactPage() {
   return (
     <>
       <PageHeading
-        title="Contact Us"
+        title="İletişime Geç"
         bgSrc="/images/contact_hero_bg.jpeg"
         pageLinkText="Contact"
       />
