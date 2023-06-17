@@ -7,7 +7,7 @@ import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 import Cta from '../Cta';
 import LogoList from '../LogoList';
-import MovingText from '../MovingText';
+import MovingText2 from '../MovingText/MovingText2';
 import MasonryGallery from '../Gallery/MasonryGallery';
 import PostSlider from '../Slider/PostSlider';
 import TestimonialSlider from '../Slider/TestimonialSlider';
@@ -50,6 +50,34 @@ export default function Home() {
       factNumber: '180',
     },
   ];
+const serviceData1 = [
+  {
+    title: 'UI/UX Design',
+    href: '/service/service-details',
+  },
+  {
+    title: 'Marketing',
+    href: '/service/service-details',
+  },
+  {
+    title: 'Branding',
+    href: '/service/service-details',
+  },
+];
+const serviceData2 = [
+  {
+    title: 'SEO',
+    href: '/service/service-details',
+  },
+  {
+    title: 'App design',
+    href: '/service/service-details',
+  },
+  {
+    title: 'React Developer',
+    href: '/service/service-details',
+  },
+];
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -169,11 +197,11 @@ export default function Home() {
       <TestimonialSlider />
       {/* End Testimonial Section */}
 
-      {/* Start MovingText Section */}
-      <Spacing lg="70" md="70" />
-      <MovingText text="Our reputed world wide partners" />
-      <Spacing lg="105" md="70" />
-      {/* End MovingText Section */}
+      {/* Start Moving Text Section */}
+      <MovingText2 data={serviceData1} />
+      <Spacing lg="20" md="10" />
+      <MovingText2 reverseDirection data={serviceData2} />
+      {/* End Moving Text Section */}
 
       {/* Start Pricing Section */}
       <Spacing lg="70" md="80" />
