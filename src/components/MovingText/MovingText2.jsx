@@ -5,7 +5,7 @@ import './movingtext.scss';
 
 export default function MovingText2({ data, reverseDirection }) {
   return (
-    <Div className="cs-moving_text_wrap cs-type1 cs-bold cs-primary_font">
+    <Div className="cs-moving_text_wrap cs-type1 cs-bold cs-secondary_font">
       <Div className="cs-moving_text_in">
         <Div
           className={
