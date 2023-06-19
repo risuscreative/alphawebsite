@@ -31,7 +31,7 @@ export default function Home() {
     },
   ];
 // FunFact Data
-const funfateData = [
+const funfactData = [
   {
     title: 'Mutlu Müşteri',
     factNumber: '160',
