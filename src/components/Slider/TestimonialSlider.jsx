@@ -9,7 +9,7 @@ export default function TestimonialSlider() {
   const [nav2, setNav2] = useState();
   const testimonialData = [
     {
-      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialThumb: '/images/yorum1.png',
       testimonialText:
         'Fiyatına göre gerçekten kaliteli işler yapıyorlar ve çok ilgililer kesinlikle tavsiye ederim ',
       avatarName: 'Show Lua',
@@ -17,7 +17,7 @@ export default function TestimonialSlider() {
       ratings: '5',
     },
     {
-      testimonialThumb: '/images/testimonial_2.jpeg',
+      testimonialThumb: '/images/yorum2.png',
       testimonialText:
         'Fiyata göre çok güzel tasarımlar ortaya çıkarttı, aklında sorusu kalan varsa kalmasın tavsiyem Alpha Graphic.',
       avatarName: 'Slash Botlist',
@@ -25,7 +25,7 @@ export default function TestimonialSlider() {
       ratings: '5',
     },
     {
-      testimonialThumb: '/images/testimonial_3.jpeg',
+      testimonialThumb: '/images/yorum3.png',
       testimonialText:
         'Tasarımı çok beğendim, buraya güvendiğim için fazlasıyla memnunum.',
       avatarName: 'Kotanak Technologies',
@@ -33,7 +33,7 @@ export default function TestimonialSlider() {
       ratings: '4.5',
     },
     {
-      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialThumb: '/images/yorum4.png',
       testimonialText:
         'Yazılım firmam için bir logo yaptırdım kısa zamanda harika bir hizmet aldım herkese öneririm.',
       avatarName: 'Waeb.net',
@@ -41,7 +41,7 @@ export default function TestimonialSlider() {
       ratings: '5',
     },
     {
-      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialThumb: '/images/yorum5.png',
       testimonialText:
         '2D ve 3D tasarım istedim,gayet hoş tasarım yaptı kendisi.Tabiki tek grafiker olunca biraz iş uzuyor ama 3 gün ortalama süre diyebilirim.',
       avatarName: 'TenTenRise',
