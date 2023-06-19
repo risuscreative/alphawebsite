@@ -12,33 +12,41 @@ export default function TestimonialSlider() {
       testimonialThumb: '/images/testimonial_1.jpeg',
       testimonialText:
         'Fiyatına göre gerçekten kaliteli işler yapıyorlar ve çok ilgililer kesinlikle tavsiye ederim ',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
-      ratings: '4',
+      avatarName: 'Show Lua',
+      avatarDesignation: 'Yazılım Platformu',
+      ratings: '5',
     },
     {
       testimonialThumb: '/images/testimonial_2.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
+        'Fiyata göre çok güzel tasarımlar ortaya çıkarttı, aklında sorusu kalan varsa kalmasın tavsiyem Alpha Graphic.',
+      avatarName: 'Slash Botlist',
+      avatarDesignation: 'Botlist Sunucusu',
       ratings: '5',
     },
     {
       testimonialThumb: '/images/testimonial_3.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
+        'Tasarımı çok beğendim, buraya güvendiğim için fazlasıyla memnunum.',
+      avatarName: 'Kotanak Technologies',
+      avatarDesignation: 'Yazılım Firması',
       ratings: '4.5',
     },
     {
       testimonialThumb: '/images/testimonial_1.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
+        'Yazılım firmam için bir logo yaptırdım kısa zamanda harika bir hizmet aldım herkese öneririm.',
+      avatarName: 'Waeb.net',
       avatarDesignation: 'CEO AT TECH',
-      ratings: '3.5',
+      ratings: '5',
+    },
+    {
+      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialText:
+        '2D ve 3D tasarım istedim,gayet hoş tasarım yaptı kendisi.Tabiki tek grafiker olunca biraz iş uzuyor ama 3 gün ortalama süre diyebilirim.',
+      avatarName: 'TenTenRise',
+      avatarDesignation: 'Minecraft Sunucusu',
+      ratings: '4.5',
     },
   ];
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
