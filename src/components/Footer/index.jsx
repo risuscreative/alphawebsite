@@ -10,31 +10,31 @@ import './footer.scss'
 export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
   const copyrightLinks = [
     {
-      title: 'Terms of Use',
+      title: 'Sipariş Süreci',
       href: '/'
     },
     {
-      title: 'Privacy Policy',
+      title: 'Ödeme Yöntemleri',
       href: '/'
     }
   ]
   
   const serviceMenu = [
     {
-      title: 'UI/UX design',
-      href: '/service/service-details'
+      title: 'Logo Tasarımı',
+      href: '/hizmetler'
     },
     {
-      title: 'WP development',
-      href: '/service/service-details'
+      title: 'Kurumsal Kimlik',
+      href: '/hizmetler'
     },
     {
-      title: 'Digital marketing',
-      href: '/service/service-details'
+      title: 'Gaming & Yayıncı Paket',
+      href: '/hizmetler'
     },
     {
-      title: 'React development',
-      href: '/service/service-details'
+      title: 'Konu Tasarımı',
+      href: '/hizmetler'
     },
   ]
 
@@ -48,19 +48,19 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
                 <TextWidget 
                   logoSrc='/images/footer_logo.svg' 
                   logoAlt='Logo'
-                  text ='Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium.'
+                  text ='Alpha Graphic Art olarak 2021 yılından beri platformunuzu yeniden tasarlıyor, değer katıyoruz. '
                 />
                 <SocialWidget/>
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <MenuWidget menuItems={serviceMenu} menuHeading='Services'/>
+                <MenuWidget menuItems={serviceMenu} menuHeading='Hizmetler'/>
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <ContactInfoWidget title='Contact Us'/>
+                <ContactInfoWidget title='İletişim'/>
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
