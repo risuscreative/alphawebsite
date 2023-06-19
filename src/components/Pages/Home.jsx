@@ -30,27 +30,26 @@ export default function Home() {
       links: 'https://behance.net/alphagrafik ',
     },
   ];
-
-  // FunFact Data
-  const funfaceData = [
+ // FunFact Data
+  const funfactData = [
     {
-      title: 'Mutlu Müşteri',
-      factNumber: '160',
+      title: 'Digital products',
+      factNumber: '550',
     },
     {
-      title: 'Tekrar Tercih Edenler',
-      factNumber: '70',
+      title: 'Global happy clients',
+      factNumber: '40K',
     },
     {
-      title: 'Yeni Katılanlar',
-      factNumber: '60',
+      title: 'Project completed',
+      factNumber: '50k',
     },
     {
-      title: 'Toplam Referans',
-      factNumber: '180',
+      title: 'Team members',
+      factNumber: '250',
     },
   ];
-const serviceData1 = [
+  const serviceData1 = [
   {
     title: 'Profesyonel',
     href: '/iletisim',
@@ -78,24 +77,6 @@ const serviceData2 = [
     href: '/iletisim',
   },
 ];
-const funfaceData = [
-  {
-    title: 'Digital products',
-    factNumber: '550',
-  },
-  {
-    title: 'Global happy clients',
-    factNumber: '40K',
-  },
-  {
-    title: 'Project completed',
-    factNumber: '50k',
-  },
-  {
-    title: 'Team members',
-    factNumber: '250',
-  },
-];
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -119,7 +100,7 @@ const funfaceData = [
       {/* Start Funfact Section */}
       <Div className="container">
         <FunFact2
-          data={funfaceData}
+          data={funfactData}
           variant="cs-type1"
           bgUrl="/images/funfact_shape_bg.svg"
         />
