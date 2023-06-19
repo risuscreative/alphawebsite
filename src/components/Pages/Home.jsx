@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Card from '../Card';
-import FunFact from '../FunFact';
+import FunFact2 from '../FunFact/FunFact2';
 import Hero from '../Hero';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
@@ -78,6 +78,24 @@ const serviceData2 = [
     href: '/iletisim',
   },
 ];
+const funfaceData = [
+  {
+    title: 'Digital products',
+    factNumber: '550',
+  },
+  {
+    title: 'Global happy clients',
+    factNumber: '40K',
+  },
+  {
+    title: 'Project completed',
+    factNumber: '50k',
+  },
+  {
+    title: 'Team members',
+    factNumber: '250',
+  },
+];
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -97,6 +115,16 @@ const serviceData2 = [
         bgImageUrl="/images/slider_5.png"
       />
       {/* End Hero Section */}
+
+      {/* Start Funfact Section */}
+      <Div className="container">
+        <FunFact2
+          data={funfaceData}
+          variant="cs-type1"
+          bgUrl="/images/funfact_shape_bg.svg"
+        />
+      </Div>
+      {/* End Funfact Section */}
 
       {/* Start Blog Section */}
       <Spacing lg="70" md="80" />
