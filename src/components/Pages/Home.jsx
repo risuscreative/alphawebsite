@@ -30,25 +30,25 @@ export default function Home() {
       links: 'https://behance.net/alphagrafik ',
     },
   ];
- // FunFact Data
-  const funfactData = [
-    {
-      title: 'Digital products',
-      factNumber: '550',
-    },
-    {
-      title: 'Global happy clients',
-      factNumber: '40K',
-    },
-    {
-      title: 'Project completed',
-      factNumber: '50k',
-    },
-    {
-      title: 'Team members',
-      factNumber: '250',
-    },
-  ];
+// FunFact Data
+const funfateData = [
+  {
+    title: 'Mutlu Müşteri',
+    factNumber: '160',
+  },
+  {
+    title: 'Tekrar Tercih Edenler',
+    factNumber: '70',
+  },
+  {
+    title: 'Yeni Katılanlar',
+    factNumber: '60',
+  },
+  {
+    title: 'Toplam Referans',
+    factNumber: '180',
+  },
+];
   const serviceData1 = [
   {
     title: 'Profesyonel',

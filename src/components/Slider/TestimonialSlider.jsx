@@ -37,7 +37,7 @@ export default function TestimonialSlider() {
       testimonialText:
         'Yazılım firmam için bir logo yaptırdım kısa zamanda harika bir hizmet aldım herkese öneririm.',
       avatarName: 'Waeb.net',
-      avatarDesignation: 'CEO AT TECH',
+      avatarDesignation: 'Yazılım Firması',
       ratings: '5',
     },
     {
