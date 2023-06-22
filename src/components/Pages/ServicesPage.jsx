@@ -17,7 +17,7 @@ export default function ServicesPage() {
   return (
     <>
       <PageHeading 
-        title='Services'
+        title='Hizmetlerimiz'
         bgSrc='images/service_hero_bg.jpeg'
         pageLinkText='Services'
       />
@@ -29,8 +29,8 @@ export default function ServicesPage() {
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title='Services we can help you with' 
-                subtitle='What Can We Do'
+                title='Sizlere Verdiğimiz Hizmetler' 
+                subtitle='Hizmetler'
               />
               <Spacing lg='90' md='45'/>
             </Div>
