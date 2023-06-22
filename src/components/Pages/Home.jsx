@@ -216,8 +216,8 @@ const serviceData2 = [
       <Spacing lg="70" md="80" />
       <Div className="container">
         <SectionHeading
-          title="Providing best <br/>pricing for client"
-          subtitle="Pricing & Packaging"
+          title="Sizin için <br/>en iyi fiyatlandırmalarımız"
+          subtitle="Fiyatlandırma"
         />
         <Spacing lg="85" md="40" />
         <PricingTableList />
@@ -230,7 +230,7 @@ const serviceData2 = [
         <Cta
           title="Projeniz <br />için <i>fiyat teklifi</i> alın"
           btnText="Fiyat Teklifi Al"
-          btnLink="/contact"
+          btnLink="/iletisim"
           bgSrc="/images/cta_bg.jpeg"
         />
       </Div>

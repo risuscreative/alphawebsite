@@ -38,40 +38,40 @@ export default function ServicesPage() {
               <Div className='row'>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
-                  <Card
-                    title='UI/UX design'
-                    link='/service/ui-ux-design'
-                    src='/images/service_1.jpeg'
-                    alt='Service'
+                <Card
+                    title="Logo Tasarımı"
+                    link="/service/service-details"
+                    src="/images/logo.jpg"
+                    alt="Service"
                   />
                   <Spacing lg='0' md='30'/>
                 </Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
-                  <Card
-                    title='React.js Development'
-                    link='/service/reactjs-development'
-                    src='/images/service_2.jpeg'
-                    alt='Service'
+                <Card
+                    title="GIF Tasarımı"
+                    link="/service/service-details"
+                    src="/images/gif.png"
+                    alt="Service"
                   />
                   <Spacing lg='0' md='30'/>
                 </Div>
                 <Div className='col-lg-3 col-sm-6'>
-                  <Card
-                    title='Digital Marketing'
-                    link='/service/digital-marketing'
-                    src='/images/service_3.jpeg'
-                    alt='Service'
+                <Card
+                    title="Konu Tasarımı"
+                    link="/service/service-details"
+                    src="/images/konu.png"
+                    alt="Service"
                   />
                   <Spacing lg='0' md='30'/>
                 </Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
-                  <Card
-                    title='Technology'
-                    link='/service/technology'
-                    src='/images/service_4.jpeg'
-                    alt='Service'
+                <Card
+                    title="Yayıncı Paketleri"
+                    link="/service/service-details"
+                    src="/images/live.png"
+                    alt="Service"
                   />
                   <Spacing lg='0' md='30'/>
                 </Div>
