@@ -17,10 +17,10 @@ export default function PricingTableList() {
           {tab==='tekli' && (
             <PricingTable 
               title='Gaming Logo'
-              price='75'
+              price='90'
               currency='₺'
               timeline='başlangıç'
-              features={['Maskot ve harf logo seçeneği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Favicon uyumlu', 'Yüksek kalite',]}
+              features={['Maskot veya harf seçeneği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Favicon uyumlu', 'Yüksek kalite',]}
               btnText='Satın Al'
               btnLink='/iletisim'
             />
@@ -28,7 +28,7 @@ export default function PricingTableList() {
           {tab==='paket' && (
             <PricingTable 
               title='Gaming Paket'
-              price='120'
+              price='130'
               currency='₺'
               timeline='başlangıç'
               features={['Gaming sunucunuzu tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
@@ -42,7 +42,7 @@ export default function PricingTableList() {
          {tab==='tekli' && (
             <PricingTable 
               title='Konu Tasarımı'
-              price='200'
+              price='250'
               currency='₺'
               timeline='başlangıç'
               features={['4 revize hakkı', '1-5 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Dinamik & özgün' , 'Modern & şık','Forumlarda kullanılabilir.' ]}
@@ -53,7 +53,7 @@ export default function PricingTableList() {
           {tab==='paket' && (
             <PricingTable 
               title='Kurumsal Paket'
-              price='200'
+              price='300'
               currency='₺'
               timeline='başlangıç'
               features={['Markanızı tamamen tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
@@ -78,10 +78,10 @@ export default function PricingTableList() {
           {tab==='paket' && (
             <PricingTable 
               title='Yayıncı Paket'
-              price='140'
+              price='250'
               currency='₺'
               timeline='başlangıç'
-              features={['Kanalınızı veya platformunuzu tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
+              features={['Kanalınızı tanıtan paket içeriği', '2 revize hakkı', '1-4 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite',]}
               btnText='Satın Al'
               btnLink='/iletisim'
             />
