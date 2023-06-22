@@ -107,7 +107,7 @@ export default function ServicesPage() {
           title='Providing best <br/>pricing for client' 
           subtitle='Pricing & Packaging'
         />
-        <Spacing lg='85' md='40'/>
+        <Spacing lg='80' md='80'/>
         <PricingTableList/>
       </Div>
       <Spacing lg='125' md='55'/>
