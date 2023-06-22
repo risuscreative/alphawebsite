@@ -6,7 +6,7 @@ export default function PageHeading({ title, bgSrc, pageLinkText }) {
   return (
     <Div
       className="cs-page_heading cs-style1 cs-center text-center cs-bg"
-      style={{ backgroundImage: `url(${bgSrc})`, backgroundSize: "1909px 530px" }}
+      style={{ backgroundImage: `url(${bgSrc})`, backgroundSize: "1909px 450px" }}
     >
       <Div className="container">
         <Div className="cs-page_heading_in">
