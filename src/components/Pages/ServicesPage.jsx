@@ -21,7 +21,7 @@ export default function ServicesPage() {
         bgSrc='images/service_hero_bg.jpeg'
         pageLinkText='Services'
       />
-      <Spacing lg='150' md='80'/>
+      <Spacing lg='80' md='80'/>
       <Div className='cs-shape_wrap_4'>
         <Div className="cs-shape_4"></Div>
         <Div className="cs-shape_4"></Div>
