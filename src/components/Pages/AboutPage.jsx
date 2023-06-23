@@ -42,7 +42,7 @@ export default function AboutPage() {
       {/* End Page Heading Section */}
 
       {/* Start Why Choose Section */}
-      <Spacing lg="80" md="80" />
+      <Spacing lg="80" md="100" />
       <Div className="container">
         <Div className="row">
           <Div className="col-xl-5 col-lg-6">
