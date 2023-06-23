@@ -86,14 +86,13 @@ const serviceData2 = [
     <>
       {/* Start Hero Section */}
       <Hero4
-        title="Hizmet Verir, <br/>Değer Katar"
-        subtitle="2021'den bugüne gelişen tecrübemizle sizlere grafik tasarım hizmeti sağlamaktayız"
-        btnText="Sipariş Oluştur"
-        btnLink="/contact"
+        title="We Are <span>A</span>rino <br />Digital Agency"
+        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
         scrollDownId="#service"
-        socialLinksHeading="Takip Et"
+        socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
-        bgImageUrl="/images/slider_5.png"
+        phoneNumber="+044 546664"
+        email="info@arino.com"
       />
       {/* End Hero Section */}
 
