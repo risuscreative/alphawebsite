@@ -41,18 +41,6 @@ export default function AboutPage() {
       />
       {/* End Page Heading Section */}
 
-
-
-      {/* Start Fun Fact Section */}
-      <Div className="container">
-        <FunFact
-          title="Our fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
-          data={funfaceData}
-        />
-      </Div>
-      {/* End Fun Fact Section */}
-
       {/* Start Why Choose Section */}
       <Spacing lg="100" md="80" />
       <Div className="container">
@@ -97,6 +85,18 @@ export default function AboutPage() {
         </Div>
       </Div>
       {/* End Why Choose Section */}
+
+
+      {/* Start Fun Fact Section */}
+      <Div className="container">
+        <FunFact
+          title="Our fun fact"
+          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          data={funfaceData}
+        />
+      </Div>
+      {/* End Fun Fact Section */}
+
 
       {/* Start CTA Section */}
       <Spacing lg="150" md="80" />
