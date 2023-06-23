@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Card from '../Card';
 import FunFact2 from '../FunFact/FunFact2';
-import Hero from '../Hero';
+import Hero4 from '../Hero/Hero4';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
