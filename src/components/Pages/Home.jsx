@@ -228,10 +228,10 @@ const serviceData2 = [
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Projeniz <br />için <i>fiyat teklifi</i> alın"
+          title="Projeniz için<br />fiyat teklifi alın"
           btnText="Fiyat Teklifi Al"
           btnLink="/iletisim"
-          bgSrc="/images/cta_bg.jpeg"
+          bgSrc="/images/cta_bg_3.jpeg"
         />
       </Div>
       {/* End CTA Section */}
