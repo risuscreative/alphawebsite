@@ -50,7 +50,7 @@ export default function TeamDetails() {
           title="Projeniz için<br />fiyat teklifi alın"
           btnText="Fiyat Teklifi Al"
           btnLink="/iletisim"
-          bgSrc="/images/cta_bg_3.jpeg"
+          bgSrc="/images/cta_bg_3.png"
         />
       </Div>
     </>
