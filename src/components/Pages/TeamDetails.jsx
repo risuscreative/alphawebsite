@@ -7,16 +7,16 @@ import Spacing from '../Spacing'
 import SocialWidget from '../Widget/SocialWidget'
 
 export default function TeamDetails() {
-  pageTitle('Team Member');
+  pageTitle('Hakkımızda');
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
   return (
     <>
       <PageHeading 
-        title='Team Details'
+        title='Alpha Graphic Hakkında'
         bgSrc='/images/team_hero_bg.jpeg'
-        pageLinkText='Team Details'
+        pageLinkText='Hakkımızda'
       />
       <Spacing lg='150' md='80'/>
       <Div className="container">
