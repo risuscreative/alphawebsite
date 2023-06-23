@@ -79,13 +79,34 @@ export default function Header({ variant }) {
                         HAKKIMIZDA
                       </NavLink> 
                     </li>
-                    <li>
+                    </li>
+                    <li className="menu-item-has-children">
                       <NavLink
-                        to="sss"
+                        to="service"
                         onClick={() => setMobileToggle(false)}
                       >
-                        SIKÇA SORULAN SORULAR
-                      </NavLink> 
+                        Services
+                      </NavLink>
+                      <DropDown>
+                        <ul>
+                          <li>
+                            <Link
+                              to="service"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Services
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="/service/service-details"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Service Details
+                            </Link>
+                          </li>
+                        </ul>
+                      </DropDown>
                     </li>
                   </ul>
                   <span
