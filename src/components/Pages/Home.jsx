@@ -85,7 +85,7 @@ const serviceData2 = [
   return (
     <>
       {/* Start Hero Section */}
-      <Hero
+      <Hero4
         title="Hizmet Verir, <br/>Değer Katar"
         subtitle="2021'den bugüne gelişen tecrübemizle sizlere grafik tasarım hizmeti sağlamaktayız"
         btnText="Sipariş Oluştur"
