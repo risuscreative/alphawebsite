@@ -41,56 +41,7 @@ export default function AboutPage() {
       />
       {/* End Page Heading Section */}
 
-      {/* Start About Section */}
-      <Spacing lg="150" md="80" />
-      <Div className="container">
-        <Div className="row">
-          <Div className="col-xl-5 col-lg-7">
-            <SectionHeading
-              title="Your trusted partner for business"
-              subtitle="About Our Agency"
-            >
-              <Spacing lg="30" md="20" />
-              <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
-              </p>
-              <Spacing lg="30" md="30" />
-              <Div className="cs-separator cs-accent_bg"></Div>
-              <Spacing lg="25" md="40" />
-            </SectionHeading>
-          </Div>
-          <Div className="col-lg-5 offset-xl-2">
-            <img
-              src="/images/about_img_1.jpeg"
-              alt="About"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
-          <Div className="col-lg-7">
-            <img
-              src="/images/about_img_2.jpeg"
-              alt="About"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
-          <Div className="col-lg-5">
-            <img
-              src="/images/about_img_3.jpeg"
-              alt="About"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
-        </Div>
-      </Div>
-      <Spacing lg="75" md="55" />
-      {/* End About Section */}
+
 
       {/* Start Fun Fact Section */}
       <Div className="container">
