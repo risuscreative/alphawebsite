@@ -15,7 +15,7 @@ export default function TeamDetails() {
     <>
       <PageHeading 
         title='Alpha Graphic Hakkında'
-        bgSrc='/images/arkaplansayfa.jpg'
+        bgSrc='/images/arkaplansayfa.png'
         pageLinkText='Hakkımızda'
       />
       <Spacing lg='150' md='80'/>
