@@ -18,8 +18,8 @@ export default function ServicesPage() {
     <>
       <PageHeading 
         title='Hizmetlerimiz'
-        bgSrc='images/service_hero_bg.jpeg'
-        pageLinkText='Services'
+        bgSrc='/images/arkaplansayfa.png'
+        pageLinkText='Hizmetler'
       />
       <Spacing lg='80' md='80'/>
       <Div className='cs-shape_wrap_4'>

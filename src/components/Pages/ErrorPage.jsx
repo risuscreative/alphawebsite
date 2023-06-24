@@ -8,7 +8,7 @@ export default function ErrorPage() {
   return (
     <Div
       className="cs-page_heading cs-style1 cs-center text-center cs-bg cs-error_page"
-      style={{ backgroundImage: 'url("/images/about_hero_bg.jpeg")' }}
+      style={{ backgroundImage: 'url("/images/arkaplansayfa.png")' }}
     >
       <Div className="container">
         <SectionHeading

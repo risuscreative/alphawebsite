@@ -93,9 +93,9 @@ export default function PortfolioPage() {
   return (
     <>
       <PageHeading
-        title="Portfolio"
-        bgSrc="images/portfolio_hero_bg.jpeg"
-        pageLinkText="Portfolio"
+        title="Portfolyomuz"
+        bgSrc='/images/arkaplansayfa.png'
+        pageLinkText="Tasarımlar"
       />
       <Spacing lg="145" md="80" />
       <Div className="container">

@@ -16,8 +16,8 @@ export default function ContactPage() {
     <>
       <PageHeading
         title="İletişime Geç"
-        bgSrc="/images/contact_hero_bg.jpeg"
-        pageLinkText="Contact"
+        bgSrc='/images/arkaplansayfa.png'
+        pageLinkText="İletişim"
       />
       <Spacing lg="30" md="20" />
       <Div className="container">
