@@ -23,7 +23,7 @@ export default function TeamDetails() {
         <Div className="row align-items-center">
           <Div className="col-xl-5 col-lg-6">
             <Div className="cs-radius_15 cs-shine_hover_1">
-              <img src="/images/member_details_1.jpeg" alt="Member" className="w-100" />
+              <img src="/images/alphalogoteam.png" alt="Member" className="w-100" />
             </Div>
           </Div>
           <Div className="col-lg-6 offset-xl-1">
