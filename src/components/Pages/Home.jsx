@@ -98,7 +98,6 @@ const serviceData2 = [
       {/* End Hero Section */}
       
       {/* Start Funfact Section */}
-      <Spacing lg="150" md="80" />
       <Div className="container">
         <FunFact2
           data={funfactData}
@@ -109,7 +108,7 @@ const serviceData2 = [
       {/* End Funfact Section */}
 
       {/* Start Blog Section */}
-      <Spacing lg="70" md="80" />
+      <Spacing lg="150" md="80" />
       <Div className="cs-shape_wrap_4">
         <Div className="cs-shape_4"></Div>
         <Div className="cs-shape_4"></Div>
@@ -135,7 +134,7 @@ const serviceData2 = [
       {/* End Blog Section */}
 
       {/* Start Service Section */}
-      <Spacing lg="70" md="80" />
+      <Spacing lg="150" md="80" />
       <Div id="service">
         <Div className="container">
           <Div className="row">
@@ -198,12 +197,13 @@ const serviceData2 = [
       {/* End Service Section */}
 
       {/* Start Gallery Section */}
-      <Spacing lg="70" md="80" />
+      <Spacing lg="150" md="80" />
       <MasonryGallery />
       {/* End Gallery Section */}
 
 
       {/* Start Testimonial Section */}
+      <Spacing lg="150" md="80" />
       <TestimonialSlider />
       {/* End Testimonial Section */}
 
