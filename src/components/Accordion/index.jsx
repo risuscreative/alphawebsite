@@ -12,24 +12,24 @@ export default function Accordion() {
   }
   const accordionData = [
     {
-      question: 'Do you design illustration website?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Nasıl sipariş verebilirim?',
+      answer: 'Instagram hesabımızdan, Discord sunucumuzdan veya güvenli ödeme kolaylığı ile İtemSatış mağazamızdan sipariş verebilirsiniz.'
     },
     {
-      question: 'Do you provide design source file after finish work?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Ödeme nasıl alınıyor?',
+      answer: 'Freelance olarak yapılan ödeme işlemleri para transfer yoluyla veya İtemSatış güvenli ödeme ile yapılmaktadır.'
     },
     {
-      question: 'How to provide project details and payments?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Siparişlerin teslimi kaç gün sürüyor?',
+      answer: 'Genellikle 1-4 gün içerisinde teslim edilen siparişiniz yoğunluğa bağlı olarak değişebilmektedir. Gecikme durumunda telafi yapılmaktadır.'
     },
     {
-      question: 'Can you tell me please how to contact for project?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Destek konusunda nasıl bir hizmet veriliyor?',
+      answer: 'Siparişinizi vermek istediğiniz andan itibaren sizlere 7/24 hızlı destek sunuyoruz. Siparişiniz teslim edildikten sonra herhangi bir sorun yaşadığınızda bizlere ulaşabilirsiniz.'
     },
     {
-      question: 'Do you makes custom logo, icon etc?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Fiyatlarda indirim oluyor mu?',
+      answer: 'Belirli günlerde fiyatlarımızda indirimler olmaktadır.'
     },
   ]
   return (
