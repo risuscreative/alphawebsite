@@ -15,17 +15,17 @@ export default function ContactPage() {
   return (
     <>
       <PageHeading
-        title="Contact Us"
-        bgSrc="/images/contact_hero_bg.jpeg"
-        pageLinkText="Contact"
+        title="İletişime Geç"
+        bgSrc='/images/arkaplansayfa.png'
+        pageLinkText="İletişim"
       />
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading
-              title="Do you have a project <br/>in your mind?"
-              subtitle="Getting Touch"
+              title="Bizimle iletişime geçmek<br/>ister misiniz?"
+              subtitle="İletişime Geç"
             />
             <Spacing lg="55" md="30" />
             <ContactInfoWidget withIcon />
