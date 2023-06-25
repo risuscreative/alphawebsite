@@ -1,6 +1,5 @@
 import { Icon } from '@iconify/react';
 import React, { useEffect } from 'react';
-import { useForm, ValidationError } from '@formspree/react';
 import { pageTitle } from '../../helper';
 import Div from '../Div';
 import PageHeading from '../PageHeading';
@@ -33,10 +32,10 @@ export default function ContactPage() {
             <Spacing lg="0" md="50" />
           </Div>
           <Div className="col-lg-6">
-            <form action="https://formspree.io/f/xoqoajoe" method='POST' className="row">
+            <form action="https://formspree.io/f/mknalqzn" method="POST" className="row">
               <Div className="col-sm-6">
                 <label className="cs-primary_color">Full Name*</label>
-                <input type="text" className="cs-form_field" />
+                <input type="text" name="name" className="cs-form_field" />
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-6">
@@ -56,7 +55,7 @@ export default function ContactPage() {
               </Div>
               <Div className="col-sm-12">
                 <label className="cs-primary_color">Mobile*</label>
-                <textarea
+                <textarea name="message"
                   cols="30"
                   rows="7"
                   className="cs-form_field"
@@ -64,7 +63,7 @@ export default function ContactPage() {
                 <Spacing lg="25" md="25" />
               </Div>
               <Div className="col-sm-12">
-                <button type='submit' className="cs-btn cs-style1">
+                <button type="submit" className="cs-btn cs-style1">
                   <span>Send Message</span>
                   <Icon icon="bi:arrow-right" />
                 </button>
