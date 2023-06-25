@@ -108,7 +108,7 @@ const serviceData2 = [
       {/* End Funfact Section */}
 
       {/* Start Blog Section */}
-      <Spacing lg="150" md="80" />
+      <Spacing lg="90" md="80" />
       <Div className="cs-shape_wrap_4">
         <Div className="cs-shape_4"></Div>
         <Div className="cs-shape_4"></Div>
@@ -134,7 +134,7 @@ const serviceData2 = [
       {/* End Blog Section */}
 
       {/* Start Service Section */}
-      <Spacing lg="150" md="80" />
+      <Spacing lg="90" md="80" />
       <Div id="service">
         <Div className="container">
           <Div className="row">
@@ -197,7 +197,7 @@ const serviceData2 = [
       {/* End Service Section */}
 
       {/* Start Gallery Section */}
-      <Spacing lg="150" md="80" />
+      <Spacing lg="90" md="80" />
       <MasonryGallery />
       {/* End Gallery Section */}
 
@@ -208,13 +208,13 @@ const serviceData2 = [
       {/* End Testimonial Section */}
 
       {/* Start Moving Text Section */}
+      <Spacing lg="90" md="80" />
       <MovingText2 data={serviceData1} />
-      <Spacing lg="70" md="80" />
       <MovingText2 reverseDirection data={serviceData2} />
       {/* End Moving Text Section */}
 
       {/* Start Pricing Section */}
-      <Spacing lg="70" md="80" />
+      <Spacing lg="90" md="80" />
       <Div className="container">
         <SectionHeading
           title="Sizin için <br/>en iyi fiyatlandırmalarımız"
