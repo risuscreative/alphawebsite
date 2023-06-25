@@ -79,6 +79,14 @@ export default function Header({ variant }) {
                         HAKKIMIZDA
                       </NavLink> 
                     </li>
+                    <li>
+                      <NavLink
+                        to="sss"
+                        onClick={() => setMobileToggle(false)}
+                      >
+                        S.S.S
+                      </NavLink>
+                    </li>
                   </ul>
                   <span
                     className={

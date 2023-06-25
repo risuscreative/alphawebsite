@@ -9,30 +9,30 @@ import PageHeading from '../PageHeading';
 import Spacing from '../Spacing';
 
 export default function FaqPage() {
-  pageTitle('Frequently Asked Questions');
+  pageTitle('Sıkça Sorulan Sorular');
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
     <>
       <PageHeading
-        title="Frequently Asked Questions"
-        bgSrc="/images/about_hero_bg.jpeg"
-        pageLinkText="FAQ"
+        title="Sıkça Sorulan Sorular"
+        bgSrc='/images/arkaplansayfa.png'
+        pageLinkText="S.S.S"
       />
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Div className="row">
           <Div className="col-lg-4">
             <Div className="cs-faq_nav cs-radius_15">
-              <h2 className="cs-faq_nav_title cs-m0">FAQ Category</h2>
+              <h2 className="cs-faq_nav_title cs-m0">Soru Kategorileri</h2>
               <Div className="cs-height_30 cs-height_lg_30" />
               <ul className="cs-list cs-style1 cs-mp0">
                 <li>
                   <Button
                     variant="cs-type2"
-                    btnLink="/faq"
-                    btnText="Service related"
+                    btnLink="/sss"
+                    btnText="Sipariş Süreci"
                     icon={
                       <Icon icon="material-symbols:content-copy-outline-rounded" />
                     }
@@ -41,8 +41,8 @@ export default function FaqPage() {
                 <li>
                   <Button
                     variant="cs-type2"
-                    btnLink="/faq"
-                    btnText="Pricing"
+                    btnLink="/sss"
+                    btnText="Ödeme İşlemleri"
                     icon={
                       <Icon icon="material-symbols:content-copy-outline-rounded" />
                     }
@@ -51,8 +51,8 @@ export default function FaqPage() {
                 <li>
                   <Button
                     variant="cs-type2"
-                    btnLink="/faq"
-                    btnText="Project delivery"
+                    btnLink="/sss"
+                    btnText="Teslim Süreci"
                     icon={
                       <Icon icon="material-symbols:content-copy-outline-rounded" />
                     }
@@ -61,8 +61,8 @@ export default function FaqPage() {
                 <li>
                   <Button
                     variant="cs-type2"
-                    btnLink="/faq"
-                    btnText="Documentation"
+                    btnLink="/iletisim"
+                    btnText="Destek Süreci"
                     icon={
                       <Icon icon="material-symbols:content-copy-outline-rounded" />
                     }
@@ -81,10 +81,10 @@ export default function FaqPage() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
-          btnText="Apply For Meeting"
-          btnLink="/contact"
-          bgSrc="/images/cta_bg.jpeg"
+          title="Projeniz için<br />fiyat teklifi alın"
+          btnText="Fiyat Teklifi Al"
+          btnLink="/iletisim"
+          bgSrc="/images/cta_bg_3.png"
         />
       </Div>
       {/* End CTA Section */}
