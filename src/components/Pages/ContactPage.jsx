@@ -34,27 +34,22 @@ export default function ContactPage() {
           <Div className="col-lg-6">
             <form action="https://formspree.io/f/mknalqzn" method="POST" className="row">
               <Div className="col-sm-6">
-                <label className="cs-primary_color">Full Name*</label>
+                <label className="cs-primary_color">İsim*</label>
                 <input type="text" name="name" className="cs-form_field" />
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-6">
-                <label for="email" className="cs-primary_color">Email*</label>
+                <label for="email" className="cs-primary_color">E-posta Adresi*</label>
                 <input type="email" className="cs-form_field" />
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-6">
-                <label className="cs-primary_color">Project Type*</label>
-                <input type="text" className="cs-form_field" />
-                <Spacing lg="20" md="20" />
-              </Div>
-              <Div className="col-sm-6">
-                <label className="cs-primary_color">Mobile*</label>
+                <label className="cs-primary_color">Konu*</label>
                 <input type="text" className="cs-form_field" />
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-12">
-                <label className="cs-primary_color">Mobile*</label>
+                <label className="cs-primary_color">Mesajınız*</label>
                 <textarea name="message"
                   cols="30"
                   rows="7"
