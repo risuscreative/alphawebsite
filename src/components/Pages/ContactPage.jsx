@@ -8,7 +8,7 @@ import Spacing from '../Spacing';
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
 
 export default function ContactPage() {
-  pageTitle('Contact Us');
+  pageTitle('İletişim');
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -59,7 +59,7 @@ export default function ContactPage() {
               </Div>
               <Div className="col-sm-12">
                 <button type="submit" className="cs-btn cs-style1">
-                  <span>Send Message</span>
+                  <span>Mesaj Gönder!</span>
                   <Icon icon="bi:arrow-right" />
                 </button>
               </Div>
