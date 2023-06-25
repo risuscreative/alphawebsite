@@ -98,6 +98,7 @@ const serviceData2 = [
       {/* End Hero Section */}
       
       {/* Start Funfact Section */}
+      <Spacing lg="150" md="80" />
       <Div className="container">
         <FunFact2
           data={funfactData}
