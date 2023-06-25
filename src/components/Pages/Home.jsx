@@ -223,7 +223,7 @@ const serviceData2 = [
         <Spacing lg="85" md="40" />
         <PricingTableList />
       </Div>
-      <Spacing lg="70" md="55" />
+      <Spacing lg="80" md="80" />
       {/* End Pricing Section */}
 
       {/* Start CTA Section */}
