@@ -74,7 +74,9 @@ export default function ContactPage() {
           allowFullScreen
           title="İmza"
           fill="none"
+          
         />
+        <Spacing lg="70" md="40" />
       </Div>
       <Spacing lg="70" md="40" />
     </>
