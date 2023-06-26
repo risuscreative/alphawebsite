@@ -10,12 +10,12 @@ import './footer.scss'
 export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
   const copyrightLinks = [
     {
-      title: 'Sipariş Süreci',
-      href: '/'
+      title: 'Sıkça Sorulan Sorular',
+      href: '/sss'
     },
     {
       title: 'Ödeme Yöntemleri',
-      href: '/'
+      href: '/sss'
     }
   ]
   
@@ -50,17 +50,11 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
                   logoAlt='Logo'
                   text ='Alpha Graphic Art olarak 2021 yılından beri platformunuzu yeniden tasarlıyor, değer katıyoruz. '
                 />
-                <SocialWidget/>
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <MenuWidget menuItems={serviceMenu} menuHeading='Hizmetler'/>
-              </Div>
-            </Div>
-            <Div className="col-lg-3 col-sm-6">
-              <Div className="cs-footer_item">
-                <ContactInfoWidget title='İletişim'/>
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
