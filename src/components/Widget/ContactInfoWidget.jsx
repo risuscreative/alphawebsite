@@ -1,6 +1,5 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
-<link href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css" rel="stylesheet">
 
 export default function ContactInfoWidget({withIcon, title}) {
   return (
@@ -8,7 +7,7 @@ export default function ContactInfoWidget({withIcon, title}) {
       {title && <h2 className="cs-widget_title">{title}</h2>}
       <ul className="cs-menu_widget cs-style1 cs-mp0">
         <li>
-          {withIcon?<span className='cs-accent_color'><Icon icon="fa-brands fa-discord" /></span>:''}
+          {withIcon?<span className='cs-accent_color'><Icon icon="mdi:discord" /></span>:''}
           +44 454 7800 112
         </li>
         <li>
