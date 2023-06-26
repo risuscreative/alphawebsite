@@ -69,7 +69,7 @@ export default function ContactPage() {
       </Div>
       <Spacing lg="70" md="80" />
       <Div className="cs-google_map">
-        <iframe
+        <img
           src="/images/imza.png"
           title="İmza"
           fill="none" 

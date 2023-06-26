@@ -1195,14 +1195,7 @@ label {
 }
 
 .cs-google_map {
-  height: 600px;
-  iframe {
-    height: 100%;
-    display: block;
-    border: none;
-    width: 100%;
-    filter: grayscale(100%) invert(90%) contrast(120%);
-  }
+  height: auto;
   &.cs-type1 {
     height: 100%;
     min-height: 300px;
