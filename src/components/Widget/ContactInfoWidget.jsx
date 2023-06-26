@@ -15,7 +15,11 @@ export default function ContactInfoWidget({withIcon, title}) {
           infotech@arino.com
         </li>
         <li>
-          {withIcon?<span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span>:''}
+          {withIcon?<span className='cs-accent_color'><Icon icon="mdi:instagram" /></span>:''}
+          50 Wall Street Suite, 44150 <br/>Ohio, United States
+        </li>
+        <li>
+          {withIcon?<span className='cs-accent_color'><Icon icon="mdi:behance" /></span>:''}
           50 Wall Street Suite, 44150 <br/>Ohio, United States
         </li>
       </ul>
