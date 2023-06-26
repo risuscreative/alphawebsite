@@ -21,20 +21,20 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
   
   const serviceMenu = [
     {
-      title: 'Logo Tasarımı',
+      title: 'Ana Sayfa',
+      href: '/'
+    },
+    {
+      title: 'Tasarımlar',
+      href: '/tasarimlar'
+    },
+    {
+      title: 'Hizmetler',
       href: '/hizmetler'
     },
     {
-      title: 'Kurumsal Kimlik',
-      href: '/hizmetler'
-    },
-    {
-      title: 'Gaming & Yayıncı Paket',
-      href: '/hizmetler'
-    },
-    {
-      title: 'Konu Tasarımı',
-      href: '/hizmetler'
+      title: 'Hakkımızda',
+      href: '/hakkimizda'
     },
   ]
   const servMenu = [
@@ -74,7 +74,7 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <MenuWidget menuItems={serviceMenu} menuHeading='Hizmetler'/>
+                <MenuWidget menuItems={serviceMenu} menuHeading='Sayfalar'/>
               </Div>
               </Div>
             <Div className="col-lg-3 col-sm-6">
