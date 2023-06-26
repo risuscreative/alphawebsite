@@ -1659,3 +1659,11 @@ label {
   transform: scale(1.25);
   color: #e2e2e2
 }
+
+.spinner {
+  animation: rotate 1s linear infinite
+}
+
+@keyframes rotate {
+  100% {transform: rotate(360deg)}
+}
