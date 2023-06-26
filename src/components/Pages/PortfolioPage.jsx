@@ -10,7 +10,7 @@ import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 
 export default function PortfolioPage() {
-  pageTitle('Alpha Graphic Art | Tasarımlar');
+  pageTitle('Tasarımlar');
   const [active, setActive] = useState('all');
   const [itemShow, setItemShow] = useState(7);
   const portfolioData = [
