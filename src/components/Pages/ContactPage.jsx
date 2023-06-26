@@ -73,6 +73,7 @@ export default function ContactPage() {
           src="/images/imza.png"
           allowFullScreen
           title="Google Map"
+          fill="none"
         />
       </Div>
       <Spacing lg="50" md="40" />
