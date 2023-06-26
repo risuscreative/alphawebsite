@@ -71,7 +71,6 @@ export default function ContactPage() {
       <Div className="cs-google_map">
         <iframe
           src="/images/imza.png"
-          allowFullScreen
           title="İmza"
           fill="none"
           
