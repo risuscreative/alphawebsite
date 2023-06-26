@@ -50,6 +50,7 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
                   logoAlt='Logo'
                   text ='Alpha Graphic Art olarak 2021 yılından beri platformunuzu yeniden tasarlıyor, değer katıyoruz. '
                 />
+                <SocialWidget/>
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
