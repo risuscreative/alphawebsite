@@ -11,7 +11,7 @@ export default function ContactInfoWidget({withIcon, title}) {
           discord.gg/7Q7EbNKHha
         </li>
         <li>
-          {withIcon?<span className='cs-accent_color'><Icon icon="mdi:envelope" /></span>:''}
+          {withIcon?<span className='cs-accent_color'><Icon icon="mdi:email" /></span>:''}
           destek.alphagrafik@gmail.com
         </li>
         <li>
