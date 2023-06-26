@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
+<link href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css" rel="stylesheet">
 
 export default function ContactInfoWidget({withIcon, title}) {
   return (
@@ -19,6 +20,9 @@ export default function ContactInfoWidget({withIcon, title}) {
           50 Wall Street Suite, 44150 <br/>Ohio, United States
         </li>
       </ul>
+      
     </>
   )
+  
 }
+
