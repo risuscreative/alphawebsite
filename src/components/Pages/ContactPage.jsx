@@ -19,7 +19,6 @@ export default function ContactPage() {
         bgSrc='/images/arkaplansayfa.png'
         pageLinkText="İletişim"
       />
-          <link href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css" rel="stylesheet"></link>
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Div className="row">
