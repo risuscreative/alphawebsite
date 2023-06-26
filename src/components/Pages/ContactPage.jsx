@@ -72,8 +72,7 @@ export default function ContactPage() {
         <iframe
           src="/images/imza.png"
           title="İmza"
-          fill="none"
-          
+          fill="none" 
         />
         <Spacing lg="70" md="40" />
       </Div>
