@@ -165,10 +165,11 @@ export default function PortfolioPage() {
       </Div>
       <Spacing lg="145" md="80" />
       <Cta
-        title="discord.gg/graphicart"
-        bgSrc="/images/cta_bg_2.jpeg"
-        variant="rounded-0"
-      />
+          title="Projenizi bizim<br />ile büyütün."
+          btnText="Birlikte Çalışalım!"
+          btnLink="/iletisim"
+          bgSrc="/images/cta_bg_3.png"
+        />
     </>
   );
 }

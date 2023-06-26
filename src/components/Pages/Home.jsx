@@ -228,9 +228,9 @@ const serviceData2 = [
 
       {/* Start CTA Section */}
       <Div className="container">
-        <Cta
-          title="Projeniz için<br />fiyat teklifi alın"
-          btnText="Fiyat Teklifi Al"
+      <Cta
+          title="Projenizi bizim<br />ile büyütün."
+          btnText="Birlikte Çalışalım!"
           btnLink="/iletisim"
           bgSrc="/images/cta_bg_3.png"
         />

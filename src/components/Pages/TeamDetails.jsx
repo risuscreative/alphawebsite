@@ -47,8 +47,8 @@ export default function TeamDetails() {
       <Spacing lg='150' md='80'/>
       <Div className="container">
       <Cta
-          title="Projeniz için<br />fiyat teklifi alın"
-          btnText="Fiyat Teklifi Al"
+          title="Projenizi bizim<br />ile büyütün."
+          btnText="Birlikte Çalışalım!"
           btnLink="/iletisim"
           bgSrc="/images/cta_bg_3.png"
         />

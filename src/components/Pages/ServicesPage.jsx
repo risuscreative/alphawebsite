@@ -104,8 +104,8 @@ export default function ServicesPage() {
       <Spacing lg='80' md='80'/>
       <Div className="container">
         <SectionHeading
-          title='Providing best <br/>pricing for client' 
-          subtitle='Pricing & Packaging'
+          title="Sizin için <br/>en iyi fiyatlandırmalarımız"
+          subtitle="Fiyatlandırma"
         />
         <Spacing lg='80' md='80'/>
         <PricingTableList/>
@@ -114,11 +114,11 @@ export default function ServicesPage() {
       <TestimonialSlider/>
       <Spacing lg='80' md='80'/>
       <Div className="container">
-        <Cta 
-          title='Let’s disscuse make <br />something <i>cool</i> together' 
-          btnText='Apply For Meeting' 
-          btnLink='/contact' 
-          bgSrc='/images/cta_bg.jpeg'
+      <Cta
+          title="Projenizi bizim<br />ile büyütün."
+          btnText="Birlikte Çalışalım!"
+          btnLink="/iletisim"
+          bgSrc="/images/cta_bg_3.png"
         />
       </Div>
     </>
