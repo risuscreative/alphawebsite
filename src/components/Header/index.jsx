@@ -33,7 +33,7 @@ export default function Header({ variant }) {
             <Div className="cs-main_header_in">
               <Div className="cs-main_header_left">
                 <Link className="cs-site_branding" to="/">
-                  <img src="/images/logo.svg" alt="Logo" />
+                  <img src="/images/Başlıksız-2.png" alt="Logo" />
                 </Link>
               </Div>
               <Div className="cs-main_header_center">
