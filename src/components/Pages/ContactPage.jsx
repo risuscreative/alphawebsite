@@ -74,9 +74,7 @@ export default function ContactPage() {
           title="İmza"
           fill="none" 
         />
-        <Spacing lg="70" md="40" />
       </Div>
-      <Spacing lg="70" md="40" />
     </>
   );
 }
