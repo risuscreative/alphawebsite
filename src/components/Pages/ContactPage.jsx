@@ -67,16 +67,16 @@ export default function ContactPage() {
           </Div>
         </Div>
       </Div>
-      <Spacing lg="80" md="80" />
+      <Spacing lg="70" md="80" />
       <Div className="cs-google_map">
         <iframe
           src="/images/imza.png"
           allowFullScreen
-          title="Google Map"
+          title="İmza"
           fill="none"
         />
       </Div>
-      <Spacing lg="80" md="40" />
+      <Spacing lg="70" md="40" />
     </>
   );
 }
