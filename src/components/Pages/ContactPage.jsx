@@ -67,7 +67,7 @@ export default function ContactPage() {
           </Div>
         </Div>
       </Div>
-      <Spacing lg="150" md="80" />
+      <Spacing lg="80" md="80" />
       <Div className="cs-google_map">
         <iframe
           src="/images/imza.png"
@@ -76,7 +76,7 @@ export default function ContactPage() {
           fill="none"
         />
       </Div>
-      <Spacing lg="50" md="40" />
+      <Spacing lg="80" md="40" />
     </>
   );
 }
