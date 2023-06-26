@@ -229,7 +229,7 @@ const serviceData2 = [
       {/* Start CTA Section */}
       <Div className="container">
       <Cta
-          title="Projenizi bizim<br />ile büyütün."
+          title="Projenizi bizim ile<br />büyütmeye ne dersiniz?"
           btnText="Birlikte Çalışalım!"
           btnLink="/iletisim"
           bgSrc="/images/cta_bg_3.png"

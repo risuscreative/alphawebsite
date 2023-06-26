@@ -165,7 +165,7 @@ export default function PortfolioPage() {
       </Div>
       <Spacing lg="145" md="80" />
       <Cta
-          title="Projenizi bizim<br />ile büyütün."
+          title="Projenizi bizim ile<br />büyütmeye ne dersiniz?"
           btnText="Birlikte Çalışalım!"
           btnLink="/iletisim"
           bgSrc="/images/cta_bg_3.png"
