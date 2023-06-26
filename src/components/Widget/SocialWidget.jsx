@@ -7,7 +7,7 @@ export default function SocialWidget() {
   return (
     <Div className="cs-social_btns cs-style1">
       <Link to='/' className="cs-center">
-        <Icon icon="fa6-brands:discord" />
+        <Icon icon="mdi:discord" />
       </Link>
       <Link to='/' className="cs-center">
         <Icon icon="fa6-brands:behance" />               
