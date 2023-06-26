@@ -40,7 +40,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6'>
                 <Card
                     title="Logo Tasarımı"
-                    link="/service/service-details"
+                    link="/tasarimlar"
                     src="/images/logo.jpg"
                     alt="Service"
                   />
@@ -49,18 +49,18 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                 <Card
-                    title="GIF Tasarımı"
-                    link="/service/service-details"
-                    src="/images/gif.png"
+                    title="Animasyonlu Logo Tasarımı"
+                    link="/tasarimlar"
+                    src="/images/gif.jpg"
                     alt="Service"
                   />
                   <Spacing lg='0' md='30'/>
                 </Div>
                 <Div className='col-lg-3 col-sm-6'>
-                <Card
+                  <Card
                     title="Konu Tasarımı"
-                    link="/service/service-details"
-                    src="/images/konu.png"
+                    link="/tasarimlar"
+                    src="/images/konu.jpg"
                     alt="Service"
                   />
                   <Spacing lg='0' md='30'/>
@@ -69,8 +69,8 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6'>
                 <Card
                     title="Yayıncı Paketleri"
-                    link="/service/service-details"
-                    src="/images/live.png"
+                    link="/tasarimlar"
+                    src="/images/live.jpg"
                     alt="Service"
                   />
                   <Spacing lg='0' md='30'/>
@@ -78,21 +78,21 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
-                  <Card
-                    title='Consultancy'
-                    link='/service/consultancy'
-                    src='/images/service_5.jpeg'
-                    alt='Service'
+                <Card
+                    title="Kurumsal Kimlik"
+                    link="/tasarimlar"
+                    src="/images/brand.jpg"
+                    alt="Service"
                   />
                   <Spacing lg='0' md='30'/>
                 </Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
-                  <Card
-                    title='Creative Design'
-                    link='/service/creative-design'
-                    src='/images/service_6.jpeg'
-                    alt='Service'
+                <Card
+                    title="İlan/Reklam Tasarımı"
+                    link="/tasarimlar"
+                    src="/images/ads.jpg"
+                    alt="Service"
                   />
                   <Spacing lg='0' md='30'/>
                 </Div>

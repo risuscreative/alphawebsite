@@ -153,7 +153,7 @@ const serviceData2 = [
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Logo Tasarımı"
-                    link="/service/service-details"
+                    link="/hizmetler"
                     src="/images/logo.jpg"
                     alt="Service"
                   />
@@ -162,9 +162,9 @@ const serviceData2 = [
                 <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
                 <Div className="col-lg-3 col-sm-6">
                   <Card
-                    title="GIF Tasarımı"
-                    link="/service/service-details"
-                    src="/images/gif.png"
+                    title="Animasyonlu Logo Tasarımı"
+                    link="/hizmetler"
+                    src="/images/gif.jpg"
                     alt="Service"
                   />
                   <Spacing lg="0" md="30" />
@@ -172,8 +172,8 @@ const serviceData2 = [
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Konu Tasarımı"
-                    link="/service/service-details"
-                    src="/images/konu.png"
+                    link="/hizmetler"
+                    src="/images/konu.jpg"
                     alt="Service"
                   />
                   <Spacing lg="0" md="30" />
@@ -182,8 +182,8 @@ const serviceData2 = [
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Yayıncı Paketleri"
-                    link="/service/service-details"
-                    src="/images/live.png"
+                    link="/hizmetler"
+                    src="/images/live.jpg"
                     alt="Service"
                   />
                   <Spacing lg="0" md="30" />
