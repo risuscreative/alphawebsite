@@ -139,28 +139,28 @@ export default function MasonryGallery() {
   ];
   const categoryMenu = [
     {
-      title: 'Gaming Logo',
+      title: 'Gaming',
       category: 'gaming',
     },
     {
-      title: 'Portrait',
-      category: 'portrait',
+      title: 'Kurumsal',
+      category: 'kurumsal',
     },
     {
-      title: 'Fashion',
-      category: 'fashion',
+      title: 'İlan & Reklam',
+      category: 'ilan',
     },
     {
-      title: 'Commercial',
-      category: 'commercial',
+      title: 'Paket Çalışmaları',
+      category: 'paket',
     },
     {
-      title: 'Landscape',
-      category: 'landscape',
+      title: 'Gif & Vfx',
+      category: 'gif',
     },
     {
-      title: 'Short film',
-      category: 'shortfilm',
+      title: 'Diğer',
+      category: 'diger',
     },
   ];
   return (
