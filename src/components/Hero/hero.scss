@@ -21,7 +21,9 @@
     content: '';
     height: 15px;
     width: 2px;
-    background-color: #999696;
+    background-color: {
+      background-image: linear-gradient(to right, red , yellow);
+    };
     display: inline-block;
     border-radius: 3px;
     margin-top: 15px;
