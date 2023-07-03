@@ -37,7 +37,7 @@ function App() {
       <div style={{height: "20rem", width: "20rem", opacity: "0.3", backgroundColor: "RED", filter: "blur(96px)", position: "absolute", top: "0", left: "0"}}></div>
       <div style={{height: "20rem", width: "20rem", opacity: "0.3", backgroundColor: "RED", filter: "blur(96px)", position: "absolute", bottom: "0", right: "0"}}></div>
       <img style={{width: "8rem", height: "8rem"}} src="https://cdn.discordapp.com/attachments/977578170389778432/1122824965813710901/Baslksz-2.png"/>
-      <span class="loader">Loading</span>
+      <span class="loader"></span>
     </div>
   </>)
 
