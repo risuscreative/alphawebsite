@@ -36,7 +36,6 @@ function App() {
     <div style={{height: "100vh", width: "100%", backgroundColor: "BLACK", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: "2rem", position: "relative"}}>
       <div style={{height: "20rem", width: "20rem", opacity: "0.3", backgroundColor: "RED", filter: "blur(96px)", position: "absolute", top: "0", left: "0"}}></div>
       <div style={{height: "20rem", width: "20rem", opacity: "0.3", backgroundColor: "RED", filter: "blur(96px)", position: "absolute", bottom: "0", right: "0"}}></div>
-      <img style={{width: "8rem", height: "8rem"}} src="https://cdn.discordapp.com/attachments/977578170389778432/1122824965813710901/Baslksz-2.png"/>
       <svg className="pl" viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <linearGradient id="pl-grad1" x1="1" y1="0.5" x2="0" y2="0.5">
