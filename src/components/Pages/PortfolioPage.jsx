@@ -10,69 +10,135 @@ import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 
 export default function PortfolioPage() {
-  pageTitle('Tasarımlar');
   const [active, setActive] = useState('all');
-  const [itemShow, setItemShow] = useState(7);
+  const [itemShow, setItemShow] = useState(10);
+
   const portfolioData = [
     {
-      title: 'Inferno E-Sports',
+      title: 'Jaxies',
       subtitle: 'Logo Tasarımı',
-      src: '/images/alpha_inferno.png',
+      href: '/portfolio/portfolio-details',
+      src: '/images/jaxieslogo.png',
+      srcLg: '/images/jaxieslogo.png',
       category: 'gaming',
+      height: 400,
+    },
+    {
+      title: 'Rewore Roleplay',
+      subtitle: 'Logo Tasarımı',
+      href: '/portfolio/portfolio-details',
+      src: '/images/reworerp.png',
+      srcLg: '/images/reworerp.png',
+      category: 'gaming',
+      height: 400,
+    },
+    {
+      title: 'Zagros Roleplay',
+      subtitle: 'Logo Tasarımı',
+      href: '/portfolio/portfolio-details',
+      src: '/images/zagros.png',
+      srcLg: '/images/zagros.png',
+      category: 'gaming',
+      height: 400,
+    },
+    {
+      title: 'GTA Tr',
+      subtitle: 'Logo Tasarımı',
+      href: '/portfolio/portfolio-details',
+      src: '/images/gtatr.png',
+      srcLg: '/images/gtatr.png',
+      category: 'kurumsal',
+      height: 400,
+    },
+    {
+      title: 'Venro Roleplay',
+      subtitle: 'Post Tasarımı',
+      href: '/portfolio/portfolio-details',
+      src: '/images/alpha_venroetkinlik.png',
+      srcLg: '/images/alpha_venroetkinlik.png',
+      category: 'diger',
+      height: 400,
+    },
+    {
+      title: 'Riva Community',
+      subtitle: 'Logo Tasarımı',
+      href: '/portfolio/portfolio-details',
+      src: '/images/rclogo.png',
+      srcLg: '/images/rclogo.png',
+      category: 'kurumsal',
+      height: 400,
+    },
+    {
+      title: 'Netmila Hosting',
+      subtitle: 'Logo Tasarımı',
+      href: '/portfolio/portfolio-details',
+      src: '/images/netmilaa.png',
+      srcLg: '/images/netmilaa.png',
+      category: 'kurumsal',
+      height: 400,
+    },
+    {
+      title: 'South Roleplay',
+      subtitle: 'Logo Tasarımı',
+      href: '/portfolio/portfolio-details',
+      src: '/images/South RP.png',
+      srcLg: '/images/South RP.png',
+      category: 'gaming',
+      height: 400,
+    },
+    {
+      title: 'US Navies: Anarchy',
+      subtitle: 'Logo Tasarımı',
+      href: '/portfolio/portfolio-details',
+      src: '/images/us navies.png',
+      srcLg: '/images/us navies.png',
+      category: 'gaming',
+      height: 400,
     },
     {
       title: 'Kitsune Hosting',
       subtitle: 'Logo Tasarımı',
-      src: '/images/alpha_kitsune.png',
+      href: '/portfolio/portfolio-details',
+      src: '/images/kitsune.png',
+      srcLg: '/images/kitsune.png',
       category: 'kurumsal',
-    },
-    {
-      title: 'Life Roleplay',
-      subtitle: 'Logo Tasarımı',
-      src: '/images/alpha_life.png',
-      category: 'gaming',
-    },
-    {
-      title: 'CeriaNetwork',
-      subtitle: 'Banner Tasarımı',
-      src: '/images/alpha_ceriabanner.png',
-      category: 'gaming',
+      height: 400,
     },
     {
       title: 'Kotanak Technologies',
       subtitle: 'Logo Tasarımı',
-      src: '/images/alpha_kotanak.png',
+      href: '/portfolio/portfolio-details',
+      src: '/images/kotanaktechlogo.png',
+      srcLg: '/images/kotanaktechlogo.png',
       category: 'kurumsal',
+      height: 400,
     },
     {
-      title: 'Twelve Roleplay',
-      subtitle: 'Maskot Logo Tasarımı',
-      src: '/images/alpha_twelvemaskot.png',
-      category: 'gaming',
-    },
-    {
-      title: 'South Roleplay',
-      subtitle: 'Banner Tasarımı',
-      src: '/images/alpha_Southbanner.png',
-      category: 'gaming',
-    },
-    {
-      title: 'YunusShop',
+      title: 'Dark Botlist',
       subtitle: 'Logo Tasarımı',
-      src: '/images/alpha_yunus.png',
+      href: '/portfolio/portfolio-details',
+      src: '/images/dark logo.png',
+      srcLg: '/images/dark logo.png',
       category: 'kurumsal',
+      height: 400,
     },
     {
-      title: 'Waeb.net',
-      subtitle: 'Logo Tasarımı',
-      src: '/images/alpha_waeb',
-      category: 'kurumsal',
+      title: 'Fakirhanem',
+      subtitle: 'İlan Tasarımı',
+      href: '/portfolio/portfolio-details',
+      src: '/images/fk2.png',
+      srcLg: '/images/fk2.png',
+      category: 'fashion',
+      height: 299,
     },
     {
-      title: 'Xaviz Shop',
-      subtitle: 'Logo Tasarımı',
-      src: '/images/alpha_xavizlogo.png',
-      category: 'kurumsal',
+      title: 'Colorful Art Work',
+      subtitle: 'View Large',
+      href: '/portfolio/portfolio-details',
+      src: '/images/portfolio_22.jpeg',
+      srcLg: '/images/portfolio_22_lg.jpeg',
+      category: 'commercial',
+      height: 622,
     },
   ];
   const categoryMenu = [
@@ -84,8 +150,25 @@ export default function PortfolioPage() {
       title: 'Kurumsal',
       category: 'kurumsal',
     },
+    {
+      title: 'İlan & Reklam',
+      category: 'ilan',
+    },
+    {
+      title: 'Paket Çalışmaları',
+      category: 'paket',
+    },
+    {
+      title: 'Gif & Vfx',
+      category: 'gif',
+    },
+    {
+      title: 'Diğer',
+      category: 'diger',
+    },
   ];
 
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -100,7 +183,7 @@ export default function PortfolioPage() {
       <Spacing lg="145" md="80" />
       <Div className="container">
         <Div className="cs-portfolio_1_heading">
-          <SectionHeading title="Some recent work" subtitle="Our Portfolio" />
+          <SectionHeading title="Yapılan Bazı Çalışmalar" subtitle="Portfolyo" />
           <Div className="cs-filter_menu cs-style1">
             <ul className="cs-mp0 cs-center">
               <li className={active === 'all' ? 'active' : ''}>
@@ -119,33 +202,47 @@ export default function PortfolioPage() {
             </ul>
           </Div>
         </Div>
-        <Spacing lg="90" md="45" />
-        <Div className="row">
-          {portfolioData.slice(0, itemShow).map((item, index) => (
+      </Div>
+      <Spacing lg="90" md="45" />
+      <Div className="cs-masonry_4_col">
+        {portfolioData.slice(0, itemShow).map((item, index) => (
+          <Div
+            className={`${
+              active === 'all'
+                ? ''
+                : !(active === item.category)
+                ? 'd-none'
+                : ''
+            }`}
+            key={index}
+          >
             <Div
-              className={`${
-                index === 3 || index === 6 ? 'col-lg-8' : 'col-lg-4'
-              } ${
-                active === 'all'
-                  ? ''
-                  : !(active === item.category)
-                  ? 'd-none'
-                  : ''
-              }`}
-              key={index}
+              className="cs-portfolio cs-style1 cs-type2"
+              style={{ height: `${item.height}px` }}
             >
-              <Portfolio
-                title={item.title}
-                subtitle={item.subtitle}
-                href={item.href}
-                src={item.src}
-                variant="cs-style1 cs-type1"
+              <Div className="cs-lightbox_item">
+                <ModalImage
+                  small={item.src}
+                  large={item.srcLg}
+                  alt={item.title}
+                />
+              </Div>
+              <Div className="cs-portfolio_hover" />
+              <span className="cs-plus" />
+              <Div
+                className="cs-portfolio_bg cs-bg"
+                style={{ backgroundImage: `url("${item.src}")` }}
               />
-              <Spacing lg="25" md="25" />
+              <Div className="cs-portfolio_info">
+                <Div className="cs-portfolio_info_bg cs-accent_bg" />
+                <h2 className="cs-portfolio_title">{item.title}</h2>
+                <Div className="cs-portfolio_subtitle">{item.subtitle}</Div>
+              </Div>
             </Div>
-          ))}
-        </Div>
-
+          </Div>
+        ))}
+      </Div>
+      <Div className="container">
         <Div className="text-center">
           {portfolioData.length <= itemShow ? (
             ''
@@ -154,22 +251,11 @@ export default function PortfolioPage() {
               <Spacing lg="65" md="40" />
               <span
                 className="cs-text_btn"
-                onClick={() => setItemShow(itemShow + 3)}
+                onClick={() => setItemShow(itemShow + 4)}
               >
                 <span>Daha Fazla</span>
                 <Icon icon="bi:arrow-right" />
               </span>
             </>
-          )}
-        </Div>
-      </Div>
-      <Spacing lg="145" md="80" />
-      <Cta
-          title="Projenizi bizim ile<br />büyütmeye ne dersiniz?"
-          btnText="Birlikte Çalışalım!"
-          btnLink="/iletisim"
-          bgSrc="/images/cta_bg_3.png"
-        />
-    </>
-  );
-}
+          )
+          }
