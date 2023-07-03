@@ -176,14 +176,14 @@ export default function PortfolioPage() {
   return (
     <>
       <PageHeading
-        title="Portfolyomuz"
-        bgSrc='/images/arkaplansayfa.png'
-        pageLinkText="Tasarımlar"
+        title="Portfolio"
+        bgSrc="images/portfolio_hero_bg.jpeg"
+        pageLinkText="Portfolio"
       />
       <Spacing lg="145" md="80" />
       <Div className="container">
         <Div className="cs-portfolio_1_heading">
-          <SectionHeading title="Yapılan Bazı Çalışmalar" subtitle="Portfolyo" />
+          <SectionHeading title="Some recent work" subtitle="Our Portfolio" />
           <Div className="cs-filter_menu cs-style1">
             <ul className="cs-mp0 cs-center">
               <li className={active === 'all' ? 'active' : ''}>
@@ -202,47 +202,33 @@ export default function PortfolioPage() {
             </ul>
           </Div>
         </Div>
-      </Div>
-      <Spacing lg="90" md="45" />
-      <Div className="cs-masonry_4_col">
-        {portfolioData.slice(0, itemShow).map((item, index) => (
-          <Div
-            className={`${
-              active === 'all'
-                ? ''
-                : !(active === item.category)
-                ? 'd-none'
-                : ''
-            }`}
-            key={index}
-          >
+        <Spacing lg="90" md="45" />
+        <Div className="row">
+          {portfolioData.slice(0, itemShow).map((item, index) => (
             <Div
-              className="cs-portfolio cs-style1 cs-type2"
-              style={{ height: `${item.height}px` }}
+              className={`${
+                index === 3 || index === 6 ? 'col-lg-8' : 'col-lg-4'
+              } ${
+                active === 'all'
+                  ? ''
+                  : !(active === item.category)
+                  ? 'd-none'
+                  : ''
+              }`}
+              key={index}
             >
-              <Div className="cs-lightbox_item">
-                <ModalImage
-                  small={item.src}
-                  large={item.srcLg}
-                  alt={item.title}
-                />
-              </Div>
-              <Div className="cs-portfolio_hover" />
-              <span className="cs-plus" />
-              <Div
-                className="cs-portfolio_bg cs-bg"
-                style={{ backgroundImage: `url("${item.src}")` }}
+              <Portfolio
+                title={item.title}
+                subtitle={item.subtitle}
+                href={item.href}
+                src={item.src}
+                variant="cs-style1 cs-type1"
               />
-              <Div className="cs-portfolio_info">
-                <Div className="cs-portfolio_info_bg cs-accent_bg" />
-                <h2 className="cs-portfolio_title">{item.title}</h2>
-                <Div className="cs-portfolio_subtitle">{item.subtitle}</Div>
-              </Div>
+              <Spacing lg="25" md="25" />
             </Div>
-          </Div>
-        ))}
-      </Div>
-      <Div className="container">
+          ))}
+        </Div>
+
         <Div className="text-center">
           {portfolioData.length <= itemShow ? (
             ''
@@ -251,11 +237,21 @@ export default function PortfolioPage() {
               <Spacing lg="65" md="40" />
               <span
                 className="cs-text_btn"
-                onClick={() => setItemShow(itemShow + 4)}
+                onClick={() => setItemShow(itemShow + 3)}
               >
-                <span>Daha Fazla</span>
+                <span>Load More</span>
                 <Icon icon="bi:arrow-right" />
               </span>
             </>
-          )
-          }
+          )}
+        </Div>
+      </Div>
+      <Spacing lg="145" md="80" />
+      <Cta
+        title="agency@arino.com"
+        bgSrc="/images/cta_bg_2.jpeg"
+        variant="rounded-0"
+      />
+    </>
+  );
+}
