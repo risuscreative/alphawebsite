@@ -36,7 +36,7 @@ function App() {
     <div style={{height: "100vh", width: "100%", backgroundColor: "BLACK", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: "2rem", position: "relative"}}>
       <div style={{height: "20rem", width: "20rem", opacity: "0.3", backgroundColor: "RED", filter: "blur(96px)", position: "absolute", top: "0", left: "0"}}></div>
       <div style={{height: "20rem", width: "20rem", opacity: "0.3", backgroundColor: "RED", filter: "blur(96px)", position: "absolute", bottom: "0", right: "0"}}></div>
-      <img style={{height: "20rem", width: "20rem"}} src="https://cdn.discordapp.com/attachments/977578170389778432/1125514769672179793/loader2.gif"/>
+      <img style={{height: "25rem", width: "25rem"}} src="https://cdn.discordapp.com/attachments/977578170389778432/1125514769672179793/loader2.gif"/>
 
     </div>
   </>)
