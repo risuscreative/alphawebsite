@@ -1660,44 +1660,52 @@ label {
   color: #e2e2e2
 }
 
-.loader {
-  width: 96px;
-  box-sizing: content-box;
-  height: 48px;
-  background: #FFF;
-  border-color: #de3500;
-  border-style: solid;
-  border-width: 2px 2px 50px 2px;
-  border-radius: 100%;
-  position: relative;
-  animation: 3s yinYang linear infinite;
-}
-.loader:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0;
-  background: #FFF;
-  border: 18px solid #de3500;
-  border-radius: 100%;
-  width: 12px;
-  height: 12px;
-  box-sizing: content-box;
-}
-.loader:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  background: #de3500;
-  border: 18px solid #FFF;
-  border-radius: 100%;
-  width: 12px;
-  height: 12px;
-  box-sizing: content-box;
-}
-@keyframes yinYang {
-  100%{transform: rotate(360deg)}
+.pl {
+	display: block;
+	width: 6.25em;
+	height: 6.25em;
 }
 
-      
+.pl__ring, .pl__ball {
+	animation: ring 2s ease-out infinite;
+}
+
+.pl__ball {
+	animation-name: ball;
+}
+
+/* Animation */
+@keyframes ring {
+	from {
+		stroke-dasharray: 0 257 0 0 1 0 0 258;
+	}
+	25% {
+		stroke-dasharray: 0 0 0 0 257 0 258 0;
+	}
+	50%, to {
+		stroke-dasharray: 0 0 0 0 0 515 0 0;
+	}
+}
+
+@keyframes ball {
+	from, 50% {
+		animation-timing-function: ease-in;
+		stroke-dashoffset: 1;
+	}
+	64% {
+		animation-timing-function: ease-in;
+		stroke-dashoffset: -109;
+	}
+	78% {
+		animation-timing-function: ease-in;
+		stroke-dashoffset: -145;
+	}
+	92% {
+		animation-timing-function: ease-in;
+		stroke-dashoffset: -157;
+	}
+	57%, 71%, 85%, 99%, to {
+		animation-timing-function: ease-out;
+		stroke-dashoffset: -163;
+	}
+}
