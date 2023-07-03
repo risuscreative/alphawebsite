@@ -1661,26 +1661,24 @@ label {
 }
 
 .loader {
-  font-size: 48px;
-  font-weight: 600;
+  width: 48px;
+  height: 48px;
+  background: #FFF;
   display: inline-block;
-  letter-spacing: 2px;
-  font-family: Montserrat, sans-serif;
-  color: #FFF;
+  border-radius: 50%;
   box-sizing: border-box;
-  animation: spotlight 5s linear infinite alternate;
+  animation: animloader 1s ease-in infinite;
 }
 
-@keyframes spotlight {
-  0% , 20% {
+@keyframes animloader {
+  0% {
+    transform: scale(0);
     opacity: 1;
-    letter-spacing: 2px;
-   }
- 80% , 100% {
+  }
+  100% {
+    transform: scale(1);
     opacity: 0;
-    letter-spacing: 32px;
-   }
-}
-      
+  }
+}    
 
       
