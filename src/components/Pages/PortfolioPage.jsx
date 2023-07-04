@@ -11,7 +11,7 @@ import Spacing from '../Spacing';
 
 export default function PortfolioPage() {
   const [active, setActive] = useState('all');
-  const [itemShow, setItemShow] = useState(20);
+  const [itemShow, setItemShow] = useState(19);
 
   const portfolioData = [
     {
