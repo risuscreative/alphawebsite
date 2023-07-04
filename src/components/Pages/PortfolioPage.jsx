@@ -176,7 +176,6 @@ export default function PortfolioPage() {
       title: 'Paket Çalışmaları',
       category: 'paket',
     },
-
     {
       title: 'Diğer',
       category: 'diger',
