@@ -217,7 +217,7 @@ const serviceData2 = [
       <Spacing lg="80" md="80" />
       <Div className="container">
         <SectionHeading
-          title="Sizin için <br/>en iyi fiyatlandırmalarımız"
+          title="Sizin için en iyi <br/> fiyatlandırmalarımız"
           subtitle="Fiyatlandırma"
         />
         <Spacing lg="85" md="40" />
