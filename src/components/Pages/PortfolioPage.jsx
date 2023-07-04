@@ -11,7 +11,7 @@ import Spacing from '../Spacing';
 
 export default function PortfolioPage() {
   const [active, setActive] = useState('all');
-  const [itemShow, setItemShow] = useState(16);
+  const [itemShow, setItemShow] = useState(20);
 
   const portfolioData = [
     {
@@ -149,11 +149,11 @@ export default function PortfolioPage() {
       height: 400,
     },
     {
-      title: 'GTA Tr',
+      title: 'Twelve Roleplay',
       subtitle: 'Logo Tasarımı',
-      src: '/images/gtatr.png',
-      srcLg: '/images/gtatr.png',
-      category: 'kurumsal',
+      src: '/images/twelvemascot.png',
+      srcLg: '/images/twelvemascot.png',
+      category: 'gaming',
       height: 400,
     },
     {
