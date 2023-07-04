@@ -7,7 +7,7 @@ import ModalImage from 'react-modal-image';
 
 export default function MasonryGallery() {
   const [active, setActive] = useState('all');
-  const [itemShow, setItemShow] = useState(10);
+  const [itemShow, setItemShow] = useState(9);
 
   const portfolioData = [
     {
