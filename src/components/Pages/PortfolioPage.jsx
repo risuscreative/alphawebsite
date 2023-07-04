@@ -173,11 +173,11 @@ export default function PortfolioPage() {
       height: 400,
     },
     {
-      title: 'Twelve Roleplay',
+      title: 'Waeb.net',
       subtitle: 'Logo Tasarımı',
-      src: '/images/twelvemascot.png',
-      srcLg: '/images/twelvemascot.png',
-      category: 'gaming',
+      src: '/images/waebnetlogo2.png',
+      srcLg: '/images/waebnetlogo2.png',
+      category: 'kurumsal',
       height: 400,
     },
     {
