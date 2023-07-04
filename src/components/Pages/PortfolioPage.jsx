@@ -51,12 +51,12 @@ export default function PortfolioPage() {
       height: 400,
     },
     {
-      title: 'Venro Roleplay',
-      subtitle: 'Post Tasarımı',
+      title: 'Yunus Shop',
+      subtitle: 'Logo Tasarımı',
       href: '/portfolio/portfolio-details',
-      src: '/images/alpha_venroetkinlik.png',
-      srcLg: '/images/alpha_venroetkinlik.png',
-      category: 'diger',
+      src: '/images/yunusshoplogo.png',
+      src: '/images/yunusshoplogo.png',
+      category: 'logo',
       height: 400,
     },
     {
