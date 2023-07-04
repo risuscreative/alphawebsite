@@ -11,7 +11,7 @@ import Spacing from '../Spacing';
 
 export default function PortfolioPage() {
   const [active, setActive] = useState('all');
-  const [itemShow, setItemShow] = useState(15);
+  const [itemShow, setItemShow] = useState(16);
 
   const portfolioData = [
     {
@@ -157,43 +157,43 @@ export default function PortfolioPage() {
       height: 400,
     },
     {
-      title: 'GTA Tr',
+      title: 'Sosyal Panelin',
       subtitle: 'Logo Tasarımı',
-      src: '/images/gtatr.png',
-      srcLg: '/images/gtatr.png',
+      src: '/images/sosyallogo.png',
+      src: '/images/sosyallogo.png',
       category: 'kurumsal',
       height: 400,
     },
     {
-      title: 'GTA Tr',
+      title: 'Slash Botlist',
       subtitle: 'Logo Tasarımı',
-      src: '/images/gtatr.png',
-      srcLg: '/images/gtatr.png',
+      src: '/images/slashs.png',
+      srcLg: '/images/slashs.png',
       category: 'kurumsal',
       height: 400,
     },
     {
-      title: 'GTA Tr',
+      title: 'Twelve Roleplay',
       subtitle: 'Logo Tasarımı',
-      src: '/images/gtatr.png',
-      srcLg: '/images/gtatr.png',
-      category: 'kurumsal',
+      src: '/images/twelvemascot.png',
+      srcLg: '/images/twelvemascot.png',
+      category: 'gaming',
       height: 400,
     },
     {
-      title: 'GTA Tr',
+      title: 'Life Roleplay',
       subtitle: 'Logo Tasarımı',
-      src: '/images/gtatr.png',
-      srcLg: '/images/gtatr.png',
-      category: 'kurumsal',
+      src: '/images/liferplogo.png',
+      srcLg: '/images/liferplogo.png',
+      category: 'gaming',
       height: 400,
     },
     {
-      title: 'GTA Tr',
+      title: 'Reina Roleplay',
       subtitle: 'Logo Tasarımı',
-      src: '/images/gtatr.png',
-      srcLg: '/images/gtatr.png',
-      category: 'kurumsal',
+      src: '/images/1111.png',
+      srcLg: '/images/1111.png',
+      category: 'gaming',
       height: 400,
     },
     {
