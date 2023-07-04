@@ -173,10 +173,7 @@ export default function MasonryGallery() {
       title: 'Paket Çalışmaları',
       category: 'paket',
     },
-    {
-      title: 'Gif & Vfx',
-      category: 'gif',
-    },
+
     {
       title: 'Diğer',
       category: 'diger',
