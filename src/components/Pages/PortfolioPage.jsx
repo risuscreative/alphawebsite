@@ -257,7 +257,7 @@ export default function PortfolioPage() {
                 className="cs-text_btn"
                 onClick={() => setItemShow(itemShow + 3)}
               >
-                <span>Load More</span>
+                <span>Daha Fazla</span>
                 <Icon icon="bi:arrow-right" />
               </span>
             </>
