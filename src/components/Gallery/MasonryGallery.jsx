@@ -6,7 +6,7 @@ import Spacing from '../Spacing';
 import ModalImage from 'react-modal-image';
 
 export default function MasonryGallery() {
-  const [active, setActive] = useState('Tümü');
+  const [active, setActive] = useState('all');
   const [itemShow, setItemShow] = useState(12);
 
   const portfolioData = [
@@ -190,7 +190,7 @@ export default function MasonryGallery() {
           <Div className="cs-filter_menu cs-style1">
             <ul className="cs-mp0 cs-center">
               <li className={active === 'all' ? 'active' : ''}>
-                <span onClick={() => setActive('all')}>All</span>
+                <span onClick={() => setActive('all')}>Tümü</span>
               </li>
               {categoryMenu.map((item, index) => (
                 <li
