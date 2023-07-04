@@ -8,37 +8,37 @@ export default function PostSlider() {
     {
       src:'/images/1.png', 
       alt:'Post',  
-      title:'Kaliteli & profesyonel tasarım.'
+      title:'Kaliteli & Profesyonel Grafik Tasarım Hizmetleri'
     },
     {
-      url:'https://alphawebsite.vercel.app/iletisim', 
+      url:'/iletisim', 
       src:'/images/2.png', 
       alt:'Post', 
-      title:'Güvenli ödeme kolaylığı.'
+      title:'Tamamen Güvenli Ödeme Kolaylığı'
     },
     {
       url:'/blog/blog-details', 
       src:'/images/3.png',  
       alt:'Post', 
-      title:'Özenli ve düzenli çalışma'
+      title:'Özenli ve Düzenli Çalışma Tarzı'
     },
     {
       url:'/blog/blog-details', 
       src:'/images/4.png', 
       alt:'Post', 
-      title:'7/24 hızlı destek imkanı.'
+      title:'7/24 Hızlı ve Canlı Destek İmkanı'
     },
     {
       url:'/blog/blog-details', 
       src:'/images/5.png', 
       alt:'Post', 
-      title:'2 revize hakkı.'
+      title:'2 Revize Hakkı.'
     },
     {
       url:'/blog/blog-details', 
       src:'/images/6.png', 
       alt:'Post', 
-      title:'Tercih eden +250 müşteri.'
+      title:'Tercih Eden +250 Müşteri.'
     }
   ]
   
