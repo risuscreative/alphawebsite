@@ -6,6 +6,7 @@ import Post from '../Post';
 export default function PostSlider() {
   const postData = [
     {
+      url:'/iletisim',
       src:'/images/1.png', 
       alt:'Post',  
       title:'Profesyonel Grafik Tasarım Hizmetleri'
@@ -17,25 +18,25 @@ export default function PostSlider() {
       title:'Tamamen Güvenli Ödeme Kolaylığı'
     },
     {
-      url:'/blog/blog-details', 
+      url:'/iletisim', 
       src:'/images/3.png',  
       alt:'Post', 
       title:'Özenli ve Düzenli Çalışma Tarzı'
     },
     {
-      url:'/blog/blog-details', 
+      url:'/iletisim', 
       src:'/images/4.png', 
       alt:'Post', 
       title:'7/24 Hızlı ve Canlı Destek İmkanı'
     },
     {
-      url:'/blog/blog-details', 
+      url:'/iletisim',
       src:'/images/5.png', 
       alt:'Post', 
       title:'2 Revize Hakkı'
     },
     {
-      url:'/blog/blog-details', 
+      url:'/iletisim',
       src:'/images/6.png', 
       alt:'Post', 
       title:'Tercih Eden +250 Müşteri'
