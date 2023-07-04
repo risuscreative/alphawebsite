@@ -132,7 +132,7 @@ export default function MasonryGallery() {
       subtitle: 'Login UI Tasarımı',
       href: '/portfolio/portfolio-details',
       src: '/images/forceslogin.png',
-      srcLg: '/images/forceslogin.png'
+      srcLg: '/images/forceslogin.png',
       category: 'commercial',
       height: 400,
     },
