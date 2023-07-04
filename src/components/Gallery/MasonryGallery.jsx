@@ -6,7 +6,7 @@ import Spacing from '../Spacing';
 import ModalImage from 'react-modal-image';
 
 export default function MasonryGallery() {
-  const [active, setActive] = useState('all');
+  const [active, setActive] = useState('Tümü');
   const [itemShow, setItemShow] = useState(12);
 
   const portfolioData = [
@@ -154,42 +154,7 @@ export default function MasonryGallery() {
       category: 'paket',
       height: 400,
     },
-    {
-      title: 'South Banner',
-      subtitle: 'Afiş Tasarımı',
-      href: '/portfolio/portfolio-details',
-      src: '/images/southbanner.png',
-      srcLg: '/images/southbanner.png',
-      category: 'paket',
-      height: 400,
-    },    
-    {
-      title: 'South Banner',
-      subtitle: 'Afiş Tasarımı',
-      href: '/portfolio/portfolio-details',
-      src: '/images/southbanner.png',
-      srcLg: '/images/southbanner.png',
-      category: 'paket',
-      height: 400,
-    },    
-    {
-      title: 'South Banner',
-      subtitle: 'Afiş Tasarımı',
-      href: '/portfolio/portfolio-details',
-      src: '/images/southbanner.png',
-      srcLg: '/images/southbanner.png',
-      category: 'paket',
-      height: 400,
-    },    
-    {
-      title: 'South Banner',
-      subtitle: 'Afiş Tasarımı',
-      href: '/portfolio/portfolio-details',
-      src: '/images/southbanner.png',
-      srcLg: '/images/southbanner.png',
-      category: 'paket',
-      height: 400,
-    },
+
   ];
   const categoryMenu = [
     {
