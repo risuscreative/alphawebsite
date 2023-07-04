@@ -45,9 +45,9 @@ export default function PostSlider() {
   /** Slider Settings **/
   const settings = {
     dots: false,
-    arrows:false,
+    arrows:true,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 4000,
     speed: 1000,
     slidesToShow: 3,
