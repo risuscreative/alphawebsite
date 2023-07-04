@@ -105,12 +105,12 @@ export default function PortfolioPage() {
       height: 400,
     },
     {
-      title: 'Kotanak Technologies',
-      subtitle: 'Logo Tasarımı',
+      title: 'Fakirhanem',
+      subtitle: 'İlan Tasarımı',
       href: '/portfolio/portfolio-details',
-      src: '/images/kotanaktechlogo.png',
-      srcLg: '/images/kotanaktechlogo.png',
-      category: 'kurumsal',
+      src: '/images/fk2.png',
+      srcLg: '/images/fk2.png',
+      category: 'ilan',
       height: 400,
     },
     {
@@ -123,22 +123,40 @@ export default function PortfolioPage() {
       height: 400,
     },
     {
-      title: 'Fakirhanem',
-      subtitle: 'İlan Tasarımı',
+      title: 'SonKılıç',
+      subtitle: 'Logo Tasarımı',
       href: '/portfolio/portfolio-details',
-      src: '/images/fk2.png',
-      srcLg: '/images/fk2.png',
-      category: 'fashion',
-      height: 299,
+      src: '/images/sonkılıç.png',
+      srcLg: '/images/sonkılıç.png',
+      category: 'gaming',
+      height: 400,
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'View Large',
+      title: 'Forces Military Roleplay',
+      subtitle: 'Login UI Tasarımı',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_22.jpeg',
-      srcLg: '/images/portfolio_22_lg.jpeg',
-      category: 'commercial',
-      height: 622,
+      src: '/images/forceslogin.png',
+      srcLg: '/images/forceslogin.png',
+      category: 'paket',
+      height: 400,
+    },
+    {
+      title: 'Ardaqwx',
+      subtitle: 'İlan Tasarımı',
+      href: '/portfolio/portfolio-details',
+      src: '/images/ardaqwx ilan.png',
+      srcLg: '/images/ardaqwx ilan.png',
+      category: 'ilan',
+      height: 400,
+    },
+    {
+      title: 'South Banner',
+      subtitle: 'Afiş Tasarımı',
+      href: '/portfolio/portfolio-details',
+      src: '/images/southbanner.png',
+      srcLg: '/images/southbanner.png',
+      category: 'paket',
+      height: 400,
     },
   ];
   const categoryMenu = [
@@ -187,7 +205,7 @@ export default function PortfolioPage() {
           <Div className="cs-filter_menu cs-style1">
             <ul className="cs-mp0 cs-center">
               <li className={active === 'all' ? 'active' : ''}>
-                <span onClick={() => setActive('all')}>All</span>
+              <span onClick={() => setActive('all')}>Tümü</span>
               </li>
               {categoryMenu.map((item, index) => (
                 <li
