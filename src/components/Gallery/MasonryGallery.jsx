@@ -125,16 +125,16 @@ export default function MasonryGallery() {
       src: '/images/fk2.png',
       srcLg: '/images/fk2.png',
       category: 'fashion',
-      height: 299,
+      height: 400,
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'View Large',
+      title: 'Forces Military Roleplay',
+      subtitle: 'Login UI Tasarımı',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_22.jpeg',
-      srcLg: '/images/portfolio_22_lg.jpeg',
+      src: '/images/forceslogin.png',
+      srcLg: '/images/forceslogin.png'
       category: 'commercial',
-      height: 622,
+      height: 400,
     },
   ];
   const categoryMenu = [
