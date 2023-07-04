@@ -86,7 +86,6 @@ export default function PostSlider() {
       {postData.map((item,index)=>(
           <Div key={index}>
             <Post 
-              url={item.url}
               src={item.src} 
               alt={item.alt} 
               date={item.date}
