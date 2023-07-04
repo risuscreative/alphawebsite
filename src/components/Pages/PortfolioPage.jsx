@@ -176,9 +176,9 @@ export default function PortfolioPage() {
   return (
     <>
       <PageHeading
-        title="Portfolio"
-        bgSrc="images/portfolio_hero_bg.jpeg"
-        pageLinkText="Portfolio"
+        title="Portfolyo"
+        bgSrc='/images/arkaplansayfa.png'
+        pageLinkText="Tasarımlar"
       />
       <Spacing lg="145" md="80" />
       <Div className="container">
@@ -248,10 +248,11 @@ export default function PortfolioPage() {
       </Div>
       <Spacing lg="145" md="80" />
       <Cta
-        title="agency@arino.com"
-        bgSrc="/images/cta_bg_2.jpeg"
-        variant="rounded-0"
-      />
+          title="Projenizi bizim ile<br />büyütmeye ne dersiniz?"
+          btnText="Birlikte Çalışalım!"
+          btnLink="/iletisim"
+          bgSrc="/images/cta_bg_3.png"
+        />
     </>
   );
 }
