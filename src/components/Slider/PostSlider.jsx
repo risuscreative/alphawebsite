@@ -8,7 +8,7 @@ export default function PostSlider() {
     {
       src:'/images/1.png', 
       alt:'Post',  
-      title:'Kaliteli & Profesyonel Grafik Tasarım Hizmetleri'
+      title:'Profesyonel Grafik Tasarım Hizmetleri'
     },
     {
       url:'/iletisim', 
@@ -32,13 +32,13 @@ export default function PostSlider() {
       url:'/blog/blog-details', 
       src:'/images/5.png', 
       alt:'Post', 
-      title:'2 Revize Hakkı.'
+      title:'2 Revize Hakkı'
     },
     {
       url:'/blog/blog-details', 
       src:'/images/6.png', 
       alt:'Post', 
-      title:'Tercih Eden +250 Müşteri.'
+      title:'Tercih Eden +250 Müşteri'
     }
   ]
   
@@ -47,7 +47,7 @@ export default function PostSlider() {
     dots: true,
     arrows:false,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 4000,
     speed: 1000,
     slidesToShow: 3,
