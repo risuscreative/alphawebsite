@@ -69,11 +69,11 @@ export default function PortfolioPage() {
       height: 400,
     },
     {
-      title: 'Netmila Hosting',
-      subtitle: 'Logo Tasarımı',
-      src: '/images/netmilaa.png',
-      srcLg: '/images/netmilaa.png',
-      category: 'kurumsal',
+      title: 'Fakirhanem',
+      subtitle: 'İlan Tasarımı',
+      src: '/images/fk2.png',
+      srcLg: '/images/fk2.png',
+      category: 'ilan',
       height: 400,
     },
     {
@@ -101,11 +101,11 @@ export default function PortfolioPage() {
       height: 400,
     },
     {
-      title: 'Fakirhanem',
-      subtitle: 'İlan Tasarımı',
-      src: '/images/fk2.png',
-      srcLg: '/images/fk2.png',
-      category: 'ilan',
+      title: 'Inferno E-Sports',
+      subtitle: 'Logo Tasarımı',
+      src: '/images/infernologo2.png',
+      src: '/images/infernologo2.png',
+      category: 'logo',
       height: 400,
     },
     {
