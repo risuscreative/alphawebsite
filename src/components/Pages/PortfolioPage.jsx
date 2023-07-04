@@ -42,12 +42,12 @@ export default function PortfolioPage() {
       height: 400,
     },
     {
-      title: 'GTA Tr',
-      subtitle: 'Logo Tasarımı',
+      title: 'South Banner',
+      subtitle: 'Afiş Tasarımı',
       href: '/portfolio/portfolio-details',
-      src: '/images/gtatr.png',
-      srcLg: '/images/gtatr.png',
-      category: 'kurumsal',
+      src: '/images/southbanner.png',
+      srcLg: '/images/southbanner.png',
+      category: 'paket',
       height: 400,
     },
     {
@@ -71,7 +71,6 @@ export default function PortfolioPage() {
     {
       title: 'Netmila Hosting',
       subtitle: 'Logo Tasarımı',
-      href: '/portfolio/portfolio-details',
       src: '/images/netmilaa.png',
       srcLg: '/images/netmilaa.png',
       category: 'kurumsal',
@@ -80,7 +79,6 @@ export default function PortfolioPage() {
     {
       title: 'South Roleplay',
       subtitle: 'Logo Tasarımı',
-      href: '/portfolio/portfolio-details',
       src: '/images/South RP.png',
       srcLg: '/images/South RP.png',
       category: 'gaming',
@@ -89,7 +87,6 @@ export default function PortfolioPage() {
     {
       title: 'US Navies: Anarchy',
       subtitle: 'Logo Tasarımı',
-      href: '/portfolio/portfolio-details',
       src: '/images/us navies.png',
       srcLg: '/images/us navies.png',
       category: 'gaming',
@@ -98,7 +95,6 @@ export default function PortfolioPage() {
     {
       title: 'Kitsune Hosting',
       subtitle: 'Logo Tasarımı',
-      href: '/portfolio/portfolio-details',
       src: '/images/kitsune.png',
       srcLg: '/images/kitsune.png',
       category: 'kurumsal',
@@ -107,7 +103,6 @@ export default function PortfolioPage() {
     {
       title: 'Fakirhanem',
       subtitle: 'İlan Tasarımı',
-      href: '/portfolio/portfolio-details',
       src: '/images/fk2.png',
       srcLg: '/images/fk2.png',
       category: 'ilan',
@@ -116,7 +111,6 @@ export default function PortfolioPage() {
     {
       title: 'Dark Botlist',
       subtitle: 'Logo Tasarımı',
-      href: '/portfolio/portfolio-details',
       src: '/images/dark logo.png',
       srcLg: '/images/dark logo.png',
       category: 'kurumsal',
@@ -125,7 +119,6 @@ export default function PortfolioPage() {
     {
       title: 'SonKılıç',
       subtitle: 'Logo Tasarımı',
-      href: '/portfolio/portfolio-details',
       src: '/images/sonkılıç.png',
       srcLg: '/images/sonkılıç.png',
       category: 'gaming',
@@ -134,28 +127,25 @@ export default function PortfolioPage() {
     {
       title: 'Forces Military Roleplay',
       subtitle: 'Login UI Tasarımı',
-      href: '/portfolio/portfolio-details',
       src: '/images/forceslogin.png',
       srcLg: '/images/forceslogin.png',
       category: 'paket',
       height: 400,
     },
     {
-      title: 'Ardaqwx',
-      subtitle: 'İlan Tasarımı',
-      href: '/portfolio/portfolio-details',
-      src: '/images/ardaqwx ilan.png',
-      srcLg: '/images/ardaqwx ilan.png',
-      category: 'ilan',
+      title: 'Netmila Hosting',
+      subtitle: 'Logo Tasarımı',
+      src: '/images/netmilaa.png',
+      srcLg: '/images/netmilaa.png',
+      category: 'kurumsal',
       height: 400,
     },
     {
-      title: 'South Banner',
-      subtitle: 'Afiş Tasarımı',
-      href: '/portfolio/portfolio-details',
-      src: '/images/southbanner.png',
-      srcLg: '/images/southbanner.png',
-      category: 'paket',
+      title: 'GTA Tr',
+      subtitle: 'Logo Tasarımı',
+      src: '/images/gtatr.png',
+      srcLg: '/images/gtatr.png',
+      category: 'kurumsal',
       height: 400,
     },
   ];
