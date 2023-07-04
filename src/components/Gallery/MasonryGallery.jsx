@@ -162,7 +162,8 @@ export default function MasonryGallery() {
       srcLg: '/images/southbanner.png',
       category: 'paket',
       height: 400,
-    },    {
+    },    
+    {
       title: 'South Banner',
       subtitle: 'Afiş Tasarımı',
       href: '/portfolio/portfolio-details',
@@ -170,7 +171,8 @@ export default function MasonryGallery() {
       srcLg: '/images/southbanner.png',
       category: 'paket',
       height: 400,
-    },    {
+    },    
+    {
       title: 'South Banner',
       subtitle: 'Afiş Tasarımı',
       href: '/portfolio/portfolio-details',
@@ -178,7 +180,8 @@ export default function MasonryGallery() {
       srcLg: '/images/southbanner.png',
       category: 'paket',
       height: 400,
-    },    {
+    },    
+    {
       title: 'South Banner',
       subtitle: 'Afiş Tasarımı',
       href: '/portfolio/portfolio-details',
