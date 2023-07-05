@@ -47,12 +47,11 @@ export default function MasonryGallery() {
       height: 400,
     },
     {
-      title: 'Venro Roleplay',
-      subtitle: 'Post Tasarımı',
-      href: '/portfolio/portfolio-details',
-      src: '/images/alpha_venroetkinlik.png',
-      srcLg: '/images/alpha_venroetkinlik.png',
-      category: 'diger',
+      title: 'Sosyal Panelin',
+      subtitle: 'Logo Tasarımı',
+      src: '/images/sosyallogo.png',
+      src: '/images/sosyallogo.png',
+      category: 'kurumsal',
       height: 400,
     },
     {

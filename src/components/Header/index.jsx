@@ -84,7 +84,7 @@ export default function Header({ variant }) {
                         to="sss"
                         onClick={() => setMobileToggle(false)}
                       >
-                        S.S.S
+                        S.S.S.
                       </NavLink>
                     </li>
                   </ul>

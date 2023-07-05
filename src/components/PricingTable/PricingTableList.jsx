@@ -67,7 +67,7 @@ export default function PricingTableList() {
          {tab==='tekli' && (
             <PricingTable 
               title='Kurumsal Logo'
-              price='120'
+              price='150'
               currency='₺'
               timeline='başlangıç'
               features={['4 revize hakkı', '1-5 gün içinde teslim', 'PNG-JPG-PDF teslim', 'Yüksek kalite', 'Dinamik & özgün' , 'Modern & şık',]}
