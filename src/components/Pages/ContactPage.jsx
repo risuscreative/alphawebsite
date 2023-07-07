@@ -68,7 +68,7 @@ export default function ContactPage() {
         </Div>
       </Div>
       <Spacing lg="70" md="80" />
-      <Div className="cs-google_map">
+      <Div className="cs-google_map" align="center">
         <img
           src="/images/imza.png"
           title="İmza"
