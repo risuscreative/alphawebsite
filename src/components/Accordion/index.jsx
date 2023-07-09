@@ -13,7 +13,7 @@ export default function Accordion() {
   const accordionData = [
     {
       question: 'Nasıl sipariş verebilirim?',
-      answer: 'Instagram hesabımızdan, Discord sunucumuzdan veya güvenli ödeme kolaylığı ile İtemSatış mağazamızdan sipariş verebilirsiniz.'
+      answer: 'Instagram hesabımızdan, Discord sunucumuzdan veya güvenli ödeme kolaylığı ile yeni açılacak mağazamızdan sipariş verebilirsiniz.'
     },
     {
       question: 'Ödeme nasıl alınıyor?',
