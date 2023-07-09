@@ -145,7 +145,7 @@ export default function MasonryGallery() {
       height: 400,
     },
     {
-      title: 'South Banner',
+      title: 'South Roleplay',
       subtitle: 'Afiş Tasarımı',
       href: '/portfolio/portfolio-details',
       src: '/images/southbanner.png',

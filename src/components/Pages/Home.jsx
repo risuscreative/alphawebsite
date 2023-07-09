@@ -34,11 +34,11 @@ export default function Home() {
 const funfactData = [
   {
     title: 'Mutlu Müşteri',
-    factNumber: '160',
+    factNumber: '230',
   },
   {
     title: 'Tekrar Tercih Edenler',
-    factNumber: '70',
+    factNumber: '90',
   },
   {
     title: 'Yeni Katılanlar',
@@ -46,7 +46,7 @@ const funfactData = [
   },
   {
     title: 'Toplam Referans',
-    factNumber: '180',
+    factNumber: '250',
   },
 ];
   const serviceData1 = [

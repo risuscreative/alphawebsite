@@ -42,7 +42,7 @@ export default function PortfolioPage() {
       height: 400,
     },
     {
-      title: 'South Banner',
+      title: 'South Roleplay',
       subtitle: 'Afiş Tasarımı',
       href: '/portfolio/portfolio-details',
       src: '/images/southbanner.png',
@@ -194,22 +194,6 @@ export default function PortfolioPage() {
       src: '/images/1111.png',
       srcLg: '/images/1111.png',
       category: 'gaming',
-      height: 400,
-    },
-    {
-      title: 'GTA Tr',
-      subtitle: 'Logo Tasarımı',
-      src: '/images/gtatr.png',
-      srcLg: '/images/gtatr.png',
-      category: 'kurumsal',
-      height: 400,
-    },
-    {
-      title: 'GTA Tr',
-      subtitle: 'Logo Tasarımı',
-      src: '/images/gtatr.png',
-      srcLg: '/images/gtatr.png',
-      category: 'kurumsal',
       height: 400,
     },
   ];
