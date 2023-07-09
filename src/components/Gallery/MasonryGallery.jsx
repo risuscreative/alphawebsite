@@ -50,7 +50,7 @@ export default function MasonryGallery() {
       title: 'Sosyal Panelin',
       subtitle: 'Logo Tasarımı',
       src: '/images/sosyallogo.png',
-      src: '/images/sosyallogo.png',
+      srcLg: '/images/sosyallogo.png',
       category: 'kurumsal',
       height: 400,
     },
