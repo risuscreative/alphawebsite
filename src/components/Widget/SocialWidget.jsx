@@ -14,8 +14,8 @@ export default function SocialWidget() {
       </Link>
       <Link to='https://youtube.com/@alphatasarim' className="cs-center">
         <Icon icon="fa6-brands:youtube" />              
-        </a>
-      <a href=“Link” className=“cs-center” target=“_blank”>
+        </Link>
+      <a href=“https://youtube.com/@alphatasarim” className=“cs-center” target=“_blank”></a>
         <Icon icon="fa6-brands:instagram" />
       </a>
     </Div>
