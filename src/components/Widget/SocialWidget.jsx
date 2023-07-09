@@ -6,7 +6,7 @@ import Div from '../Div';
 export default function SocialWidget() {
   return (
     <Div className="cs-social_btns cs-style1">
-      <Link to='https://discord.gg/7Q7EbNKHha' className="cs-center">
+      <a target="_blank" href="https://discord.gg/7Q7EbNKHha">
         <Icon icon="mdi:discord" />
       </Link>
       <Link to='https://www.behance.net/alphagrafik' className="cs-center">
