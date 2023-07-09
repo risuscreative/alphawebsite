@@ -14,10 +14,10 @@ export default function SocialWidget() {
       </Link>
       <Link to='https://youtube.com/@alphatasarim' className="cs-center">
         <Icon icon="fa6-brands:youtube" />              
-      </Link>
-      <Link to='https://www.instagram.com/alphagraphicart/' className="cs-center">
+        </a>
+      <a href=“Link” className=“cs-center” target=“_blank”>
         <Icon icon="fa6-brands:instagram" />
-      </Link>
+      </a>
     </Div>
   )
 }
