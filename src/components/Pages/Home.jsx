@@ -90,7 +90,6 @@ const serviceData2 = [
         subtitle="2021'den bugüne gelişen tecrübemizle sizlere grafik tasarım hizmeti sağlamaktayız"
         btnText="Sipariş Oluştur"
         btnLink="/contact"
-        scrollDownId="#service"
         socialLinksHeading="Takip Et"
         heroSocialLinks={heroSocialLinks}
         bgImageUrl="/images/slider_5.png"
