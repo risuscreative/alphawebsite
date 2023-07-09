@@ -6,16 +6,16 @@ import Div from '../Div';
 export default function SocialWidget() {
   return (
     <Div className="cs-social_btns cs-style1">
-      <Link to='https://discord.gg/7Q7EbNKHha' className="cs-center">
+      <a href='https://www.instagram.com/alphagraphicart/' className="cs-center" target="_blank" >
         <Icon icon="mdi:discord" />
       </Link>
-      <Link to='https://www.behance.net/alphagrafik' className="cs-center">
+      <a href='https://www.instagram.com/alphagraphicart/' className="cs-center" target="_blank" >
         <Icon icon="fa6-brands:behance" />               
       </Link>
-      <Link to='https://youtube.com/@alphatasarim' className="cs-center">
+      <a href='https://www.instagram.com/alphagraphicart/' className="cs-center" target="_blank" >
         <Icon icon="fa6-brands:youtube" />              
         </Link>
-      <a href='https://youtube.com/@alphatasarim' className="cs-center" target="_blank" >
+      <a href='https://www.instagram.com/alphagraphicart/' className="cs-center" target="_blank" >
         <Icon icon="fa6-brands:instagram" />
       </a>
     </Div>
