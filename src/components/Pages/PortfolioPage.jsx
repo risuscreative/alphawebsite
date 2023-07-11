@@ -17,7 +17,6 @@ export default function PortfolioPage() {
     {
       title: 'Jaxies',
       subtitle: 'Logo Tasarımı',
-      href: '/portfolio/portfolio-details',
       src: '/images/jaxieslogo.png',
       srcLg: '/images/jaxieslogo.png',
       category: 'gaming',
@@ -26,7 +25,6 @@ export default function PortfolioPage() {
     {
       title: 'Rewore Roleplay',
       subtitle: 'Logo Tasarımı',
-      href: '/portfolio/portfolio-details',
       src: '/images/reworerp.png',
       srcLg: '/images/reworerp.png',
       category: 'gaming',
@@ -35,7 +33,6 @@ export default function PortfolioPage() {
     {
       title: 'Zagros Roleplay',
       subtitle: 'Logo Tasarımı',
-      href: '/portfolio/portfolio-details',
       src: '/images/zagros.png',
       srcLg: '/images/zagros.png',
       category: 'gaming',
@@ -44,7 +41,6 @@ export default function PortfolioPage() {
     {
       title: 'South Roleplay',
       subtitle: 'Afiş Tasarımı',
-      href: '/portfolio/portfolio-details',
       src: '/images/southbanner.png',
       srcLg: '/images/southbanner.png',
       category: 'paket',
@@ -53,7 +49,6 @@ export default function PortfolioPage() {
     {
       title: 'Yunus Shop',
       subtitle: 'Logo Tasarımı',
-      href: '/portfolio/portfolio-details',
       src: '/images/yunusshoplogo.png',
       src: '/images/yunusshoplogo.png',
       category: 'logo',
@@ -62,7 +57,6 @@ export default function PortfolioPage() {
     {
       title: 'Riva Community',
       subtitle: 'Logo Tasarımı',
-      href: '/portfolio/portfolio-details',
       src: '/images/rclogo.png',
       srcLg: '/images/rclogo.png',
       category: 'kurumsal',
